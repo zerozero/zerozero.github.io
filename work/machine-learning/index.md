@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Machine Learning
-permalink: /machine-learning/
 ---
 
-I dun a course
+I dun a course init.
 
 ### More Information
 
