@@ -21,10 +21,11 @@ layout: default
 	<section>
 		<h2 class="smallcap">projects</h2>
 		<ul class="post-list">
-			{% for page in site.pages limit:10 %}
+			{% assign pages = site.pages | sort: 'date' | reverse %}
+			{% for page in pages %}
 				{% if page.project %}
 				<li>
-					<span>{{ page.date | date: "%b %d, %Y" }}</span>
+					<span>{{ page.date | date: "%b %Y" }}</span>
 					<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 				</li>
 				{% endif %}

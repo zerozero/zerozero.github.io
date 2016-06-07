@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Netplay.tv
-date: 2016-01-08T16:44:29+00:00
+title: MTV Party Zone Titles
+date: 1994-01-19T22:12:17+00:00
 project: true
 categories:
   - code
@@ -11,11 +11,8 @@ tags:
   - projects
 ---
 
-God that was awful
-
 ### More Information
 
-Will it ever go live?
 
 ### Contact me
 

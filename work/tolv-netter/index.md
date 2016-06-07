@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Netplay.tv
-date: 2016-01-08T16:44:29+00:00
+title: Tølv Netter
+date: 1998-05-01T16:44:29+00:00
 project: true
 categories:
   - code
@@ -11,11 +11,8 @@ tags:
   - projects
 ---
 
-God that was awful
-
 ### More Information
 
-Will it ever go live?
 
 ### Contact me
 
