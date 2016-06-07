@@ -18,4 +18,17 @@ layout: default
 		</ul>
 		<p><a href="{{ "/archives/" | prepend: site.baseurl }}">view more...</a></p>
 	</section>
+	<section>
+		<h2 class="smallcap">projects</h2>
+		<ul class="post-list">
+			{% for page in site.pages limit:10 %}
+				{% if page.project %}
+				<li>
+					<span>{{ page.date | date: "%b %d, %Y" }}</span>
+					<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+				</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</section>
 </div>

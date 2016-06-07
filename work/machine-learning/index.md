@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Machine Learning
+project: true
 ---
 
 I dun a course init.

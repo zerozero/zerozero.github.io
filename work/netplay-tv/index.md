@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Netplay.tv
-layout: page
+project: true
 categories:
   - code
   - projects
