@@ -3,6 +3,7 @@ layout: page
 title: Acer Olympic Pavilion
 date: 2012-06-01T16:44:29+00:00
 project: true
+video: 72145266
 categories:
   - code 
   - projects 
@@ -24,9 +25,7 @@ In the end the game bore little connection with the events surrounding it but I 
 
 I put together a video of the result here:
 
-[![Fast, Faster, Fastest](https://zerozero.github.io/images/heroes/acer-poster-frame.jpg)](https://vimeo.com/72145266 "Fast, Faster, Fastest - Click to Watch!"){:target="_blank"}
-
-<iframe width="420" height="315" src="https://vimeo.com/72145266" frameborder="0" allowfullscreen></iframe>
+{% include vimeoplayer.html id=page.video %}
 
 The game was built entirely with actionscript both for the playing surface (that leveraged the Starling framework for super-fast graphics rendering) and the tablet controllers (built on the AIR framework)
 
