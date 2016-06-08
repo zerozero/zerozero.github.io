@@ -16,8 +16,6 @@ Olympic Park, London. June, 2012
 ![Acer Olympic Pavillion](https://zerozero.github.io/images/heroes/acer-main.jpg)
 *Fast, Faster, Fastest at the Acer Olympic Pavilion.*
 
-{{page.categories}}
-
 In early 2012 I was approached by events specialists OpenPlatform to produce a massive multiplayer game to feature in the Olympic Pavilion of tech giants Acer. The concept was to showcase Acer's range of tablets by using 8 of them to act as controllers for a 3 meter by 2 meter playing surface populated by cute avatars.
 
 There were a number of challenges that required some lateral thinking and inventiveness in order to realise this ambitious project in the timescale. Not least the strict rules set down by the International Olympic Committee as to what was and wasn't acceptable for inclusion. Out went any thoughts of using the olympic rings or even the word **Olympics** itself.
@@ -28,6 +26,7 @@ I put together a video of the result here:
 
 [![Fast, Faster, Fastest](https://zerozero.github.io/images/heroes/acer-poster-frame.jpg)](https://vimeo.com/72145266 "Fast, Faster, Fastest - Click to Watch!"){:target="_blank"}
 
+<iframe width="420" height="315" src="https://vimeo.com/72145266" frameborder="0" allowfullscreen></iframe>
 
 The game was built entirely with actionscript both for the playing surface (that leveraged the Starling framework for super-fast graphics rendering) and the tablet controllers (built on the AIR framework)
 
