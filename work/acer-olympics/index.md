@@ -10,14 +10,17 @@ categories:
   - technology 
 tags:
   - projects
+description: Multiplayer projected game surface with tablet controllers.
 ---
 
 Olympic Park, London. June, 2012
 
-![Acer Olympic Pavillion](https://zerozero.github.io/images/heroes/acer-main.jpg)
-*Fast, Faster, Fastest at the Acer Olympic Pavilion.*
-
-Multiplayer projected game surface with tablet controllers.
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/images/heroes/acer-main.jpg" alt="" title="Fast, Faster, Fastest"/>
+</div>
+<div class="col three caption">
+	Fast, Faster, Fastest at the Acer Olympic Pavilion.
+</div>
 
 In early 2012 I was approached by events specialists OpenPlatform to produce a massive multiplayer game to feature in the Olympic Pavilion of tech giants Acer. The concept was to showcase Acer's range of tablets by using 8 of them to act as controllers for a 3 meter by 2 meter playing surface populated by cute avatars.
 

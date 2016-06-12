@@ -9,11 +9,19 @@ categories:
   - technology
 tags:
   - projects
+tech:
+ - flash
+ - Adobe AIR
+ - iOS
+ - android
+ - Facebook API
+description: Sudoku with a twist for iOS and Android 
 ---
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/images/heroes/sudoku.jpg" alt="" title="sudoku"/>
+</div>
+<br/>
 
-### More Information
+Bromleigh House is a big player in the printed puzzle game arena. They wanted to branch out from printed matter into the digital world. Together we devised a version of the classic Sudoku suited to the medium. Players solve puzzles against the clock with big bonuses for successful runs of correct plays. The game also makes in-app purchases of themed boards available and is integrated with Facebook so players can brag to their friends.
 
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+I used Adobe AIR to build the game for both Android and iOS and it went live in both Apple and Google stores in December 2014. Download it [here](https://play.google.com/store/apps/details?id=air.com.artpluscode.release.SudokuCountdown&hl=en_GB) or [here](https://geo.itunes.apple.com/gb/app/sudoku-countdown/id898742546?mt=8).
