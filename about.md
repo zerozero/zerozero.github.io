@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 
-<img class="col one right" src="/img/prof_pic.jpg">
+<img class="col one right" src="/images/prof_pic.jpg">
 
 <br/>
 I'm a coder, artist and foodie based in London, UK. Over the last 18 years I have made a living creating interactive content for brands and agencies. Alongside the commercial stuff I also make work for myself, for the sheer joy of being creative. This is what sustains me and makes some of the less interesting stuff bearable. This and food.
