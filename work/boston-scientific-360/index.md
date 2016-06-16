@@ -9,7 +9,7 @@ categories:
   - technology
 tags:
   - projects
-description: 360 video and panoramic cube-mapped environments for iPad & iPad Pro.
+description: 360 video and panoramic cube-mapped environments for iPad & iPad Pro
 tech:
  - iOS
  - Objective C

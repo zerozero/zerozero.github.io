@@ -10,7 +10,7 @@ categories:
   - technology 
 tags:
   - projects
-description: Multiplayer projected game surface with tablet controllers.
+description: Multiplayer projected game surface with tablet controllers
 ---
 
 Olympic Park, London. June, 2012

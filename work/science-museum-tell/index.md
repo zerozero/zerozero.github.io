@@ -14,6 +14,7 @@ tech:
  - express.js
  - twitter real-time API
  - instagram real-time API
+description: Visitor generated content system R&D
 ---
 
 It's 2014 and the watchword in the museum community is Visitor Generated Content (VGC). The walls of the museum are breaking down and the role of the curator handing down information to a passive public is being challenged. Now it is the audience who are invited to bring their own interpretation to the artefacts on display, and encouraged to share their thoughts in new and interesting ways. Working with the New Media team at the Science Museum I am tasked to produce a report on the current state of VGC in the museum community and to come up with innovative ways of allowing visitors to the museum to interact with the museum's collections and with each other.
@@ -24,4 +25,4 @@ The smartphone and social networks are ubiquitous on the museum floor so I creat
 
 ![VGC](/images/real-time1.png)
 
-[Here is the report:]({{ site.baseurl }}/images/Tell.pages.pdf)
+[Here]({{ site.baseurl }}/images/Tell.pages.pdf) is the report.
