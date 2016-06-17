@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Wow Face!
+title: Tic
 date: 2016-05-16T16:44:29+00:00
 project: true
 video: 167115527
-description: Control audio output with facial expressions.
+description: Machine learning control of audio output with facial expressions.
 tech:
  - OpenFrameworks
  - OpenCV

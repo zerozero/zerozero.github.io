@@ -25,6 +25,8 @@ June 2014. My studio group in South London is planning an exhibition as part of 
 
 I have been working with the LEAP motion controller for a few months and I have been reading about the so-called 'cargo cults' of the South Pacific Islands. I create this work as a mashup of these ideas: the viewer takes the part of a shaman invoking the spirit of the model airplane visible within the depths of the piece. Making a futile attempt to elicit the return of the planes that bring riches from afar.
 
+![visualisation](/images/belly/bellyviz.png)
+
 <div class="img_row">
 	<img class="col two left" src="{{ site.baseurl }}/images/belly/b1.jpg" alt="" title="b1"/>
 </div>
