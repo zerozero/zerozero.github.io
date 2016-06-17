@@ -6,9 +6,10 @@
 
       <div class="trigger">
         <!-- {{ site.title }} instead of blog -->
-        <a class="page-link" href="{{ site.baseurl }}/">blog</a>
+        
 		<a class="page-link" href="http://www.jonrowe.com">home</a>
-        {% for page in site.pages %}
+		<a class="page-link" href="{{ site.baseurl }}/">blog</a>
+        {% for page in site.pages reversed %}
           {% if page.menuItem %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
