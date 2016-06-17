@@ -3,32 +3,29 @@ id: 211
 title: DIY MakerBot build
 date: 2013-08-19T22:12:17+00:00
 author: zerozero
-layout: post
+layout: page
 project: true
 categories:
   - 3D printing
   - technology
   - video
+description: Time-lapse footage of the construction of my MakerBot
+video: 40367881
+tech:
+ - 3D printing
+ - electronics
 ---
-72 hours of build condensed into 4.5 minutes &#8211; and it worked first time!
-
-
-
-&nbsp;
-
-<div id="attachment_335" style="width: 1034px" class="wp-caption aligncenter">
-  <a href="http://162.13.3.34:8079/labs/wp-content/uploads/2013/08/makerbot-trolley.jpg"><img class="wp-image-335 size-full" src="http://162.13.3.34:8079/labs/wp-content/uploads/2013/08/makerbot-trolley.jpg" alt="makerbot-trolley" width="1024" height="768" /></a>
-  
-  <p class="wp-caption-text">
-    completed makerbot on customised trolley with 3d printed spool holder
-  </p>
+<div class="img_row">
+	<img class="col two left" src="{{ site.baseurl }}/images/heroes/makerbot-trolley.jpg" alt="" title="makerbot"/>
+	<img class="col one right" src="{{ site.baseurl }}/images/heroes/3d-printed-head.jpg" alt="" title="makerbot"/>
 </div>
-
-&nbsp;
-
-<div class="gk-social-buttons">
-  <span class="gk-social-label">Share:</span> <a class="gk-social-twitter" href="http://twitter.com/share?text=Timelapse+MakerBot+build&url=http%3A%2F%2F162.13.3.34%3A8079%2Flabs%2F%3Fp%3D211"
-	            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"> <span class="social__icon--hidden">Twitter</span> </a> <a class="gk-social-fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F162.13.3.34%3A8079%2Flabs%2F%3Fp%3D211"
-			     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"> <span class="social-icon-hidden">Facebook</span> </a> <a class="gk-social-gplus" href="https://plus.google.com/share?url=http%3A%2F%2F162.13.3.34%3A8079%2Flabs%2F%3Fp%3D211"
-	           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"> <span class="social__icon--hidden">Google+</span> </a>
+<div class="col two left caption">
+	completed makerbot on customised trolley with 3d printed spool holder
 </div>
+<br/>
+The Makerbot II was one of the first commercially available consumer 3D printers and - in the great tradition of early tech - was a self-build project. As a sucker for new-fangled doo-dads I ordered one as soon as I could and a few weeks later the box arrived all the way from the US of A.
+
+This video documents the build process - 72 hours of build condensed into 4.5 minutes - and it worked first time!
+
+{% include vimeoplayer.html id=page.video %}
+<br/>

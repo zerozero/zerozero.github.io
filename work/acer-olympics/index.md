@@ -11,6 +11,10 @@ categories:
 tags:
   - projects
 description: Multiplayer projected game surface with tablet controllers
+tech:
+ - Flash/Flex/AIR
+ - Starling Framework
+ - RFID
 ---
 
 Olympic Park, London. June, 2012
@@ -30,7 +34,3 @@ On entering the pavilion players would have their photos taken and be provided w
 
 The game was built entirely with actionscript both for the playing surface (that leveraged the Starling framework for super-fast graphics rendering) and the tablet controllers (built on the AIR framework)
 
->Technology:
->Flash/Flex/AIR
->Starling Framework
->RFID
