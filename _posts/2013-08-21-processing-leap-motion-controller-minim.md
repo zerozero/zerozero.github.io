@@ -6,6 +6,7 @@ author: zerozero
 layout: post
 categories:
   - code
+video: 72856070
 ---
 **Objective:**
   
@@ -21,13 +22,13 @@ I want to control a synthesised sound by moving my hand in space.
   
 <a href="http://code.compartmental.net/tools/minim/" target="_blank">Minim Audio Library for Processing</a> 
 
-<!--more-->
 
-Here&#8217;s the result:
+Here's the result:
 
+{% include vimeoplayer.html id=page.video %}
+  <br/>
 
-
-And here&#8217;s the processing code with comments:
+And here's the processing code with comments:
 
 {% highlight java %}
   
@@ -55,65 +56,58 @@ Oscil fm;
 void setup()  
 {
      
-size(9_50, 9_50);     
-background(20);
-leapMotion = new LeapMotion(this);     
-minim = new Minim(this);
+	size(9_50, 9_50);     
+	background(20);
+	leapMotion = new LeapMotion(this);     
+	minim = new Minim(this);
 
-// get a stereo line out with a sample buffer of 512 samples    
-out = minim.getLineOut(Minim.MONO, 512);
+	// get a stereo line out with a sample buffer of 512 samples    
+	out = minim.getLineOut(Minim.MONO, 512);
 
-// make the Oscil we will hear.    
-// arguments are frequency, amplitude, and waveform    
-Oscil wave = new Oscil( 200, 0.8, Waves.TRIANGLE );
+	// make the Oscil we will hear.    
+	// arguments are frequency, amplitude, and waveform    
+	Oscil wave = new Oscil( 200, 0.8, Waves.TRIANGLE );
 
-// make the Oscil we will use to modulate the frequency of wave.    
-// the frequency of this Oscil will determine how quickly the    
-// frequency of wave changes and the amplitude determines how much.    
-// since we are using the output of fm directly to set the frequency    
-// of wave, you can think of the amplitude as being expressed in Hz.    
-fm = new Oscil( 10, 2, Waves.SINE );
+	// make the Oscil we will use to modulate the frequency of wave.    
+	// the frequency of this Oscil will determine how quickly the    
+	// frequency of wave changes and the amplitude determines how much.    
+	// since we are using the output of fm directly to set the frequency    
+	// of wave, you can think of the amplitude as being expressed in Hz.    
+	fm = new Oscil( 10, 2, Waves.SINE );
     
-// set the offset of fm so that it generates values centered around 200 Hz    
-fm.offset.setLastValue( 200 );
+	// set the offset of fm so that it generates values centered around 200 Hz    
+	fm.offset.setLastValue( 200 );
     
-// patch it to the frequency of wave so it controls it    
-fm.patch( wave.frequency );
+	// patch it to the frequency of wave so it controls it    
+	fm.patch( wave.frequency );
     
-// and patch wave to the output    
-wave.patch( out );
+	// and patch wave to the output    
+	wave.patch( out );
   
 }
 
 void draw()  
 {
     
-fill(20);
-    
-rect(0, 0, width, height);
+	fill(20);    
+	rect(0, 0, width, height);
 
-// draw using a white stroke
+	// draw using a white stroke    
+	stroke( 255 );
     
-stroke( 255 );
+	// draw the waveforms    
+	for( int i = 0; i < out.bufferSize() – 1; i++ )
     
-// draw the waveforms
-    
-for( int i = 0; i < out.bufferSize() &#8211; 1; i++ )
-    
-{
-      
-// find the x position of each buffer value
-      
-float x1 = map( i, 0, out.bufferSize(), 0, width );
-      
-float x2 = map( i+1, 0, out.bufferSize(), 0, width );
+	{      
+		// find the x position of each buffer value      
+		float x1 = map( i, 0, out.bufferSize(), 0, width );      
+		float x2 = map( i+1, 0, out.bufferSize(), 0, width );
 
-    // draw a line from one buffer position to the next for both channels
-    line( x1, 50 + out.left.get(i)*50, x2, 50 + out.left.get(i+1)*50);
-    line( x1, 150 + out.right.get(i)*50, x2, 150 + out.right.get(i+1)*50);
-    
+		// draw a line from one buffer position to the next for both channels
+	    line( x1, 50 + out.left.get(i)*50, x2, 50 + out.left.get(i+1)*50);
+	    line( x1, 150 + out.right.get(i)*50, x2, 150 + out.right.get(i+1)*50);  
 
-}
+	}
   
 }
 
@@ -123,27 +117,18 @@ void keyPressed()
   
 {
     
-if ( key == &#8216;m&#8217; )
-    
-{
+	if ( key == 'm' )    
+	{      
+		if ( out.isMuted() )      
+		{
+        	out.unmute();
       
-if ( out.isMuted() )
-      
-{
-        
-out.unmute();
-      
-}
-      
-else
-      
-{
-        
-out.mute();
-      
-}
-    
-}
+		}      
+		else      
+		{
+        	out.mute();      
+		}    
+	}
   
 }
 
@@ -153,75 +138,48 @@ void onInit(final Controller controller)
   
 {
     
-controller.enableGesture(Gesture.Type.TYPE_CIRCLE);
-    
-controller.enableGesture(Gesture.Type.TYPE\_KEY\_TAP);
-    
-controller.enableGesture(Gesture.Type.TYPE\_SCREEN\_TAP);
-    
-controller.enableGesture(Gesture.Type.TYPE_SWIPE);
-    
-// enable background policy
-    
-controller.setPolicyFlags(Controller.PolicyFlag.POLICY\_BACKGROUND\_FRAMES);
+	controller.enableGesture(Gesture.Type.TYPE_CIRCLE);    
+	controller.enableGesture(Gesture.Type.TYPE\_KEY\_TAP);    
+	controller.enableGesture(Gesture.Type.TYPE\_SCREEN\_TAP);    
+	controller.enableGesture(Gesture.Type.TYPE_SWIPE);    
+	// enable background policy    
+	controller.setPolicyFlags(Controller.PolicyFlag.POLICY\_BACKGROUND\_FRAMES);
   
 }
 
-// we can change the parameters of the frequency modulation Oscil
-  
-// in real-time using the hand.
-  
+// we can change the parameters of the frequency modulation Oscil  
+// in real-time using the hand.  
 void onFrame(final Controller controller)
   
 {
     
-Frame frame = controller.frame();
+	Frame frame = controller.frame();
 
-HandList hands = frame.hands();
+	HandList hands = frame.hands();
 
-if (hands.count() > 0){
+	if (hands.count() > 0){
      
-Hand hand = hands.get(0);
-     
-Vector pos = hand.palmPosition();
-     
-println(&#8220;x &#8220;+pos.getX()+&#8221; y &#8220;+pos.getY());
-     
-float x = pos.getX();
-     
-float y = pos.getY();
-     
-float modulateAmount = map( y, 0, height, 220, 1 );
-     
-float modulateFrequency = map( x, 0, width, 0.1, 100 );
+		Hand hand = hands.get(0);     
+		Vector pos = hand.palmPosition();     
+		println(&#8220;x &#8220;+pos.getX()+&#8221; y &#8220;+pos.getY());     
+		float x = pos.getX();     
+		float y = pos.getY();     
+		float modulateAmount = map( y, 0, height, 220, 1 );     
+		float modulateFrequency = map( x, 0, width, 0.1, 100 );
+		fm.frequency.setLastValue( modulateFrequency );     
+		fm.amplitude.setLastValue( modulateAmount );
 
-fm.frequency.setLastValue( modulateFrequency );
-     
-fm.amplitude.setLastValue( modulateAmount );
+	}
 
 }
 
-}
-
-//remember to stop the sound before closing
-  
-void stop()
-  
+//remember to stop the sound before closing  
+void stop()  
 {
-    
-out.close();
-    
-minim.stop();
-    
-super.stop();
-  
+    out.close();    
+	minim.stop();    
+	super.stop();  
 }
   
 {% endhighlight %}
 
-<div class="gk-social-buttons">
-  <span class="gk-social-label">Share:</span> <a class="gk-social-twitter" href="http://twitter.com/share?text=Processing+%2B+Leap+Motion+Controller+%2B+Minim&url=http%3A%2F%2F162.13.3.34%3A8079%2Flabs%2F%3Fp%3D245"
-	            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"> <span class="social__icon--hidden">Twitter</span> </a> <a class="gk-social-fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F162.13.3.34%3A8079%2Flabs%2F%3Fp%3D245"
-			     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"> <span class="social-icon-hidden">Facebook</span> </a> <a class="gk-social-gplus" href="https://plus.google.com/share?url=http%3A%2F%2F162.13.3.34%3A8079%2Flabs%2F%3Fp%3D245"
-	           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"> <span class="social__icon--hidden">Google+</span> </a>
-</div>
