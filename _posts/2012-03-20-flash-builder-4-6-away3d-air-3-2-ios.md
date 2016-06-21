@@ -7,7 +7,7 @@ layout: post
 categories:
   - code
 ---
-Here&#8217;s how I got a basic barebones Away3D scene running under AIR 3.2 on iOS built with Flash Builder 4.6 on OS X. <!--more-->
+Here's how I got a basic barebones Away3D scene running under AIR 3.2 on iOS built with Flash Builder 4.6 on OS X. 
 
 **Get Stuff:**
   
@@ -15,11 +15,11 @@ The github repo for this project is <a href="https://github.com/zerozero/Flash-B
   
 Install the new sdk, instructions <a href="http://jeffwinder.blogspot.com/2011/09/installing-adobe-air-3-sdk-in-flash.html" target="_blank">here</a> and <a href="http://www.flashdeveloper.co/post/10985842021/installing-the-air3-sdk-on-flash-builder-4-5-1#disqus_thread" target="_blank">here</a>.
 
-Both are written for 3.1 but I&#8217;ve done the same process for 3.2 and it applied correctly
+Both are written for 3.1 but I've done the same process for 3.2 and it applied correctly
 
-Note in step 3. of Jeff Winder&#8217;s instructions be sure to make a copy of the current sdk folder i.e. the one named 4.5.1 or suchlike. NOT the sdks folder itself &#8211; I made that mistake and had to start again when I couldn&#8217;t figure out why the build script wasn&#8217;t finding stuff. The aim of the game here is to copy your current SDK folder &#8211; the one that FB is using as the default SDK &#8211; so that all settings and paths remain the same, then overwriting only the necessary files to produce an updated SDK with the new AIR 3.2 distribution in place.
+Note in step 3. of Jeff Winder's instructions be sure to make a copy of the current sdk folder i.e. the one named 4.5.1 or suchlike. NOT the sdks folder itself - I made that mistake and had to start again when I couldn't figure out why the build script wasn't finding stuff. The aim of the game here is to copy your current SDK folder - the one that FB is using as the default SDK - so that all settings and paths remain the same, then overwriting only the necessary files to produce an updated SDK with the new AIR 3.2 distribution in place.
 
-So assuming this is done and you have obtained the necessary provisioning files, certificates etc from Apple and provisioned your device (<a href="http://www.adobe.com/devnet/air/articles/packaging-air-apps-ios.html" target="_blank">this is quite a good explanation of that process</a>) &#8211; we can start to set up the project.
+So assuming this is done and you have obtained the necessary provisioning files, certificates etc from Apple and provisioned your device (<a href="http://www.adobe.com/devnet/air/articles/packaging-air-apps-ios.html" target="_blank">this is quite a good explanation of that process</a>) - we can start to set up the project.
 
 **Do Stuff:**
 
@@ -31,49 +31,49 @@ Use Default SDK (which should be the new SDK created above)
   
 Mobile Settings:
   
-iOS only (I haven&#8217;t tried the others yet)
+iOS only (I haven't tried the others yet)
   
-View Based Application (I have tried blank but it is slightly different, Tabbed should be the same as it uses a UIViewNavigator as it&#8217;s top level View)
+View Based Application (I have tried blank but it is slightly different, Tabbed should be the same as it uses a UIViewNavigator as it's top level View)
   
 No Server
   
-Build Path -> Source Path &#8211; enter the path to <a href="http://away3d.com/download/" target="_blank">Away3D fp11</a> core directory or Library Path if using the swc
+Build Path -> Source Path - enter the path to <a href="http://away3d.com/download/" target="_blank">Away3D fp11</a> core directory or Library Path if using the swc
 
 Now open Project properties and paste [cc inline=&#8221;true&#8221;]-swf-version=15[/cc] in compiler arguments
 
-Open My-app.xml in the src folder and make the following changes &#8211;
+Open My-app.xml in the src folder and make the following changes -
   
 Make sure the xml namespace correctly refers to AIR 3.2
   
-[cc inline=&#8221;true&#8221;]<application xmlns="http://ns.adobe.com/air/application/3.2">[/cc]
+`<application xmlns="http://ns.adobe.com/air/application/3.2">`
   
-Note &#8211; I tried using **3.2.0** after I had an error alerting me that the version I should use was 3.2.0 not 3.1.0 but the trailing zero will throw an error.
+Note - I tried using **3.2.0** after I had an error alerting me that the version I should use was 3.2.0 not 3.1.0 but the trailing zero will throw an error.
 
 uncomment these lines and add these values:
   
-[cc]<renderMode>direct</renderMode>
-  
-<depthAndStencil>true</depthAndStencil>[/cc]
+```
+<renderMode>direct</renderMode>
+<depthAndStencil>true</depthAndStencil>
+```
 
 On to the code.
 
 There are 4 main classes needed in my setup.
   
-**Barebones.mxml** &#8211; the main App
+**Barebones.mxml** - the main App
   
-**views.BarebonesHomeView.mxml** &#8211; the top level view component
+**views.BarebonesHomeView.mxml** - the top level view component
   
-**views.UIComponent3D** &#8211; a UIComponent to wrap the Away3D sprite since sprites can&#8217;t be directly added to a View(they&#8217;re not an mx.core.IVisualComponent)
+**views.UIComponent3D** - a UIComponent to wrap the Away3D sprite since sprites can't be directly added to a View(they're not an mx.core.IVisualComponent)
   
-**views.Canvas3D** &#8211; the sprite that is composed of the Away3D scene
+**views.Canvas3D** - the sprite that is composed of the Away3D scene
 
 Lets look at each one in turn:
 
 **Barebones.mxml**
 
-[cc]<?xml version="1.0" encoding="utf-8"?>
-
-
+```as3
+<?xml version="1.0" encoding="utf-8"?>
   
 <s:ViewNavigatorApplication xmlns:fx="http://ns.adobe.com/mxml/2009"
                               
@@ -87,13 +87,15 @@ xmlns:s="library://ns.adobe.com/flex/spark" firstView="views.BarebonesHomeView" 
       
 </fx:Declarations>
   
-</s:ViewNavigatorApplication>[/cc]
+</s:ViewNavigatorApplication>
+```
 
-Not much going on here.. applicationDPI is set to 160, framerate is 60. The [cc inline=&#8221;true&#8221;]firstView[/cc] property is the reference to the View that will be first visible on load. We won&#8217;t use any other views here but the **ViewNavigatorApplication** could handle loading and unloading views if we were.
+Not much going on here.. applicationDPI is set to 160, framerate is 60. The [cc inline=&#8221;true&#8221;]firstView[/cc] property is the reference to the View that will be first visible on load. We won't use any other views here but the **ViewNavigatorApplication** could handle loading and unloading views if we were.
 
 **views.BarebonesHomeView.mxml**
 
-[cc]<?xml version="1.0" encoding="utf-8"?>
+```as3
+<?xml version="1.0" encoding="utf-8"?>
 
 
   
@@ -142,7 +144,7 @@ addedToStage="onAdded(event)">
 
 </s:View>
 
-[/cc]
+```
   
 Notice the addedToStage event is set to call the onAdded method; at this point we know we have a reference to the stage as the component is now on the display list.
 
@@ -150,12 +152,11 @@ In the onAdded method we call [cc inline=&#8221;true&#8221;]fitToStage()[/cc] wh
   
 Finally we add the UIComponent3D and give it a name of container3D.
 
-**Very important:** Views have a white background set to alpha=1 by default. Since Stage3D always renders behind other flash content we **MUST** set alpha=0 otherwise you can&#8217;t see the 3D scene.
+**Very important:** Views have a white background set to alpha=1 by default. Since Stage3D always renders behind other flash content we **MUST** set alpha=0 otherwise you can't see the 3D scene.
 
 **views.UIComponent3D**
 
-[cc]
-  
+```as3
 package views
   
 {
@@ -240,9 +241,9 @@ import flash.events.Event;
 
 }
   
-[/cc]
+```
 
-This is a very simple UIComponent whose job is simply to create and display the Canvas3D sprite. Sprites can&#8217;t be added directly to Views since they are not IVisualComponents so this UIComponent will act as a wrapper.
+This is a very simple UIComponent whose job is simply to create and display the Canvas3D sprite. Sprites can't be added directly to Views since they are not IVisualComponents so this UIComponent will act as a wrapper.
 
 We override the createChildren method which gets called automatically when the component is added to the display list. We also override the updateDisplayList method which is called whenever the component is invalidated and needs to redraw such as on orientation changes.
 
@@ -250,11 +251,12 @@ The createView method creates and adds the canvas3D instance, it will only be ca
 
 **views.Canvas3D**
 
-This is the main Away3D class and should be familiar to anyone who&#8217;s used Away3D. There&#8217;s just a couple of things to note. It&#8217;s quite long so I won&#8217;t post the whole lot but you can download from the github repo.
+This is the main Away3D class and should be familiar to anyone who's used Away3D. There's just a couple of things to note. It's quite long so I won't post the whole lot but you can download from the github repo.
 
 In the constructor we set up a listener for the ADDED\_TO\_STAGE event so we can defer building the scene until we know that the sprite has been added to the display list.
 
-[cc]private function onAddedToStage( e:Event ):void{
+```as3
+private function onAddedToStage( e:Event ):void{
 
             initView();
             initLights();
@@ -269,35 +271,34 @@ In the constructor we set up a listener for the ADDED\_TO\_STAGE event so we can
         }
     
 
-[/cc]
+```
 
 Here we:
 
-  * initView &#8211; create the View3D instance and add it as a child
-  * initLights() &#8211; create a couple of lights to light the scene
-  * initCamController() &#8211; create a simple HoverCam controller
-  * initListeners() &#8211; listen for objects being added to or removed from the scene &#8211; they&#8217;re not used here but could be useful later.
-  * initScene() &#8211; create a wireframe grid, a cube and the awayStats instance and add them as appropriate
+  * initView - create the View3D instance and add it as a child
+  * initLights() - create a couple of lights to light the scene
+  * initCamController() - create a simple HoverCam controller
+  * initListeners() - listen for objects being added to or removed from the scene - they're not used here but could be useful later.
+  * initScene() - create a wireframe grid, a cube and the awayStats instance and add them as appropriate
 
 next we call the start() method:
   
-[cc]
-  
+```as3 
 public function start():void{
               
 addEventListener(Event.ENTER_FRAME, onEnterFrame);
               
-//need to call render here otherwise enterFrame events don&#8217;t happen?!
+//need to call render here otherwise enterFrame events don't happen?!
               
 _view3D.render();
           
 }
   
-[/cc]
+```
   
-An odd thing I experienced was that although it worked correctly in the simulator, when I packaged it and put it on my iPad the Event.ENTER_FRAME event _would not fire at all_ unless I called [cc inline=&#8221;true&#8221;]_view3D.render();[/cc] manually here &#8211; weird.
+An odd thing I experienced was that although it worked correctly in the simulator, when I packaged it and put it on my iPad the Event.ENTER_FRAME event _would not fire at all_ unless I called `_view3D.render();` manually here - weird.
 
-And that&#8217;s about it. Package it up and throw it onto your device and you should see DRIV: OpenGL in the stats window and a nice orange cube in the centre of the scene
+And that's about it. Package it up and throw it onto your device and you should see DRIV: OpenGL in the stats window and a nice orange cube in the centre of the scene
   
 I get a good steady 60-ish fps for this simple scene.. next up testing with many more polys.
 
@@ -305,24 +306,17 @@ Here are some notes on gotchas that I experienced when I was trying to get this 
 
   * When configuring the air project the application descriptor namespace should read like this:
   
-    [cc inline=&#8221;true&#8221;]<application xmlns="http://ns.adobe.com/air/application/3.2">[/cc]</p> 
-    I.E. NOT 3.2.0 but 3.2</li> 
+	`<application xmlns="http://ns.adobe.com/air/application/3.2">`
+    I.E. NOT 3.2.0 but 3.2
     
-      * For stage3d we need to set
+  * For stage3d we need to set
   
-        [cc inline=&#8221;true&#8221;]<renderMode>direct</renderMode> [/cc]
+        `<renderMode>direct</renderMode>`
   
         and
   
-        [cc inline=&#8221;true&#8221;]<depthAndStencil>true</depthAndStencil>[/cc]
+		`<depthAndStencil>true</depthAndStencil>`
   
         in the application descriptor
-      * Make sure -swf-version=15 is set in compiler arguments
-      * When loading the away3D sprite into a View component remember to set the View&#8217;s backgroundAlpha = 0</ul> 
-    
-    <div class="gk-social-buttons">
-      <span class="gk-social-label">Share:</span> <a class="gk-social-twitter" href="http://twitter.com/share?text=Flash+Builder+4.6+%2B+Away3D+%2B+AIR+3.2+%2B+iOS&url=http%3A%2F%2F162.13.3.34%3A8079%2Flabs%2F%3Fp%3D128"
-	            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"> <span class="social__icon--hidden">Twitter</span> </a> <a class="gk-social-fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F162.13.3.34%3A8079%2Flabs%2F%3Fp%3D128"
-			     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"> <span class="social-icon-hidden">Facebook</span> </a> <a class="gk-social-gplus" href="https://plus.google.com/share?url=http%3A%2F%2F162.13.3.34%3A8079%2Flabs%2F%3Fp%3D128"
-	           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"> <span class="social__icon--hidden">Google+</span> </a>
-    </div>
+  * Make sure -swf-version=15 is set in compiler arguments
+  * When loading the away3D sprite into a View component remember to set the View's backgroundAlpha = 0</ul> 
