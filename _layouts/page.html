@@ -11,6 +11,8 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-{% include tech.html %}
-{% include share.html %}
+{% if page.project %}
+	{% include tech.html %}
+	{% include share.html %}
+{% endif %}
 </div>
