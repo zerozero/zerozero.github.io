@@ -10,6 +10,7 @@ tech:
  - OpenCV
  - Wekinator
  - Max/MSP
+ - C++
 ---
 
 {% include vimeoplayer.html id=page.video %}

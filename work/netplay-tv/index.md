@@ -17,6 +17,7 @@ tech:
  - TDD/BDD
  - Bamboo CI Server
  - RTMP streaming
+ - node.js
 description: Full featured Angular.js roulette gaming site
 ---
 

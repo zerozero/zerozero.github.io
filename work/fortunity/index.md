@@ -10,7 +10,7 @@ categories:
 tags:
   - projects
 tech:
- - Actionscript 3
+ - Flash
  - PureMVC
  - as3isoLib
  - Blender 3D
