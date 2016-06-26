@@ -66,7 +66,7 @@ Config file for serproxy
 See serproxy's README file for documentation
 
 
-```as3
+```csharp
 #Transform newlines coming from the serial port into nils
 #true (e.g. if using Flash) or false
 newlines_to_nils=false
@@ -92,7 +92,7 @@ The port number must match the port number defined in the Arduino script.
 _Rename serproxy.cfg to serproxy.osx.cfg_ if you're on a mac. Run TinkerProxy from a terminal session by cd'ing to the TinkerProxy directory and entering `$ ./serproxy.osx` you should get a "_Waiting for clients_" message.
 
 
-```as3  
+```csharp  
 //The digital pin that the LED is connected to
   
 #define LED_PIN 8
@@ -101,7 +101,7 @@ _Rename serproxy.cfg to serproxy.osx.cfg_ if you're on a mac. Run TinkerProxy fr
   
 I changed the pin for the LED to 8 from 13 as the accelerometer is using Pin 13
   
-```as3
+```csharp
 
         Serial.print(x_val, DEC);
       //..
@@ -124,7 +124,7 @@ I removed all `Serial.print`s and modified the code so that arduino will send ju
 
 For the main part the actionscript code is the same as Cliff's but I created a new **Widget** class that is going to create a strip of controls for one axis comprising a Knob component to display angle, and three sliders for acceleration, velocity and distance. Here's the createChildren method, I have given each of the controls appropriate min and max values:
   
-```as3
+```csharp
 
 /**
 * create the child components         
@@ -159,7 +159,7 @@ private function createChildren():void{
 
 And here is the update method that will get called every time we get data from the arduino:
   
-```as3
+```csharp
 /**
            
 * update the gui

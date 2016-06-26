@@ -20,7 +20,7 @@ Requirements:
 
 Create a file named **server.js** in the root of the locomotive project and add this code:
   
-```as3
+```csharp
 var locomotive = require('locomotive'),
           
 env = process.env.NODE_ENV || 'development',
@@ -31,15 +31,15 @@ address = '0.0.0.0';
 
 locomotive.boot(__dirname, env, function(err, server) {
       
-if (err) { throw err; }
+	if (err) { throw err; }
       
-server.listen(port, address, function() {
+		server.listen(port, address, function() {
         
-var addr = this.address();
+		var addr = this.address();
         
-console.log('listening on %s:%d', addr.address, addr.port);
+		console.log('listening on %s:%d', addr.address, addr.port);
       
-});
+	});
   
 });
 ```

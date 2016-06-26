@@ -51,7 +51,7 @@ Note - I tried using **3.2.0** after I had an error alerting me that the version
 
 uncomment these lines and add these values:
   
-```
+```csharp
 <renderMode>direct</renderMode>
 <depthAndStencil>true</depthAndStencil>
 ```
@@ -72,7 +72,7 @@ Lets look at each one in turn:
 
 **Barebones.mxml**
 
-```as3
+```csharp
 <?xml version="1.0" encoding="utf-8"?>
   
 <s:ViewNavigatorApplication xmlns:fx="http://ns.adobe.com/mxml/2009"
@@ -94,7 +94,7 @@ Not much going on here.. applicationDPI is set to 160, framerate is 60. The [cc 
 
 **views.BarebonesHomeView.mxml**
 
-```as3
+```csharp
 <?xml version="1.0" encoding="utf-8"?>
 
 
@@ -156,7 +156,7 @@ Finally we add the UIComponent3D and give it a name of container3D.
 
 **views.UIComponent3D**
 
-```as3
+```csharp
 package views
   
 {
@@ -255,22 +255,17 @@ This is the main Away3D class and should be familiar to anyone who's used Away3D
 
 In the constructor we set up a listener for the ADDED\_TO\_STAGE event so we can defer building the scene until we know that the sprite has been added to the display list.
 
-```as3
+```csharp
 private function onAddedToStage( e:Event ):void{
-
-            initView();
-            initLights();
-            initCamController();
-            initListeners();
-            initScene();
-    
-            start();
-    
-            dispatchEvent( new Event(SCENE_READY));
-            this.removeEventListener(Event.ADDED_TO_STAGE, onAddedToStage );
-        }
-    
-
+    initView();
+    initLights();
+    initCamController();
+    initListeners();
+    initScene();
+    start();
+    dispatchEvent( new Event(SCENE_READY));
+    this.removeEventListener(Event.ADDED_TO_STAGE, onAddedToStage );
+}
 ```
 
 Here we:
@@ -283,7 +278,7 @@ Here we:
 
 next we call the start() method:
   
-```as3 
+```csharp
 public function start():void{
               
 addEventListener(Event.ENTER_FRAME, onEnterFrame);
@@ -304,19 +299,19 @@ I get a good steady 60-ish fps for this simple scene.. next up testing with many
 
 Here are some notes on gotchas that I experienced when I was trying to get this to run:
 
-  * When configuring the air project the application descriptor namespace should read like this:
-  
-	`<application xmlns="http://ns.adobe.com/air/application/3.2">`
-    I.E. NOT 3.2.0 but 3.2
-    
-  * For stage3d we need to set
-  
-        `<renderMode>direct</renderMode>`
-  
-        and
-  
-		`<depthAndStencil>true</depthAndStencil>`
-  
-        in the application descriptor
-  * Make sure -swf-version=15 is set in compiler arguments
-  * When loading the away3D sprite into a View component remember to set the View's backgroundAlpha = 0</ul> 
+* When configuring the air project the application descriptor namespace should read like this:
+
+`<application xmlns="http://ns.adobe.com/air/application/3.2">`
+I.E. NOT 3.2.0 but 3.2
+
+* For stage3d we need to set
+
+`<renderMode>direct</renderMode>`
+
+and
+
+`<depthAndStencil>true</depthAndStencil>`
+
+in the application descriptor
+* Make sure -swf-version=15 is set in compiler arguments
+* When loading the away3D sprite into a View component remember to set the View's backgroundAlpha = 0</ul> 
