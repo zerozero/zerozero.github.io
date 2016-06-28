@@ -30,7 +30,7 @@ Here's the result:
 
 And here's the processing code with comments:
 
-{% highlight java %}
+```csharp
   
 import com.leapmotion.leap.Controller;
 import com.leapmotion.leap.Frame;  
@@ -181,5 +181,5 @@ void stop()
 	super.stop();  
 }
   
-{% endhighlight %}
+```
 
