@@ -3,6 +3,7 @@
  */
 .highlight {
     background: #002451;
+	overflow: auto;
 	color: #ffffff;
     @extend %vertical-rhythm;
 

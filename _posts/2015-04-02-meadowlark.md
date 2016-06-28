@@ -3,6 +3,7 @@ layout: post
 title: Meadowlark
 category: Identity
 description: Low-poly Unity game (devlog part 1)
+video: 171615635
 ---
 
 <div class="img_row">
@@ -91,4 +92,6 @@ _Gui_
 Consider using the colour of the dragonfly tail to represent health status in place of a HUD.
 
 Main menu. Access hi-scores, re-load paused games etc.
+
+{% include vimeoplayer.html id=page.video %}
 
