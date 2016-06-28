@@ -17,10 +17,11 @@ On the blog you'll find links to my project archive, that's all the serious stuf
 <br/>
 <span class="contacticon center">
 	<a href="mailto:mail@jonrowe.com"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com" target="_blank"><i class="fa fa-github-square"></i></a>
-	<a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-	<a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i></a>
-	<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+	<a href="https://github.com/zerozero/zerozero.github.io" target="_blank"><i class="fa fa-github-square"></i></a>
+	<a href="https://uk.linkedin.com/in/mrjonrowe" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+	<!--a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i></a-->
+	<a href="https://twitter.com/jonrowe_human" target="_blank"><i class="fa fa-twitter-square"></i></a>
+	<a href="https://www.facebook.com/jon.rowe.31" target="_blank"><i class="fa fa-facebook-square"></i></a>
 </span>
 
 <div class="col three caption">
