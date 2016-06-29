@@ -4,6 +4,7 @@ title: Meadowlark
 category: Identity
 description: Low-poly Unity game (devlog part 1)
 video: 171615635
+disqus: yes
 ---
 
 <div class="img_row">

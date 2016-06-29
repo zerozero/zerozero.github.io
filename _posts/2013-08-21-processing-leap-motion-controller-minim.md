@@ -7,6 +7,7 @@ layout: post
 categories:
   - code
 video: 72856070
+disqus: yes
 ---
 **Objective:**
   

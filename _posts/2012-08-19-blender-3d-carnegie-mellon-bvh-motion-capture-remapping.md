@@ -11,6 +11,7 @@ tags:
   - blender
   - bvh
   - cmu
+disqus: yes
 ---
 Today I'm investigating how to use bvh motion capture files with my blender models (~Blender 2.49). The bvh files are provided by <a href="http://mocap.cs.cmu.edu/" title="CMU original mocap data" target="_blank">Carnegie Melon University</a> with the Blender compatible conversions <a href="https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/cmu-bvh-conversion" title="CMU .bvh files" target="_blank">here</a>, there's over 2000 files and they're an awesome resource if you're looking for naturalistic human motion, less so if you're looking for the 'stretch-and-bounce' type animation you'd find in cartoons. They won't fit every situation and they will need cleaning up before they are really useful but for quickly having access to a large number of actions - for free - they can't be beat. 
 

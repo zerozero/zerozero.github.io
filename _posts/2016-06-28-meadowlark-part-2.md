@@ -4,6 +4,7 @@ title: Unity3D + LEAP + Google Cardboard. Meadowlark Part 2.
 category: Code
 description: Low-poly Unity game (devlog part 2)
 video: 172549546
+disqus: yes
 ---
 
 **Objective:**
@@ -319,3 +320,7 @@ That runs now.
 So one change to make in the OpenFrameworks app. In 'ofApp.h' I need to set the `#define DEFAULT_LEAP_OSC_IP` to the local network address of my iPhone. Run both apps and this is the result - the cube on the iPhone is controlled using data sent as OSC messages from the LEAP controller app running on the Mac. **This will enable me now to interact with objects in a VR world using hand gestures.**
 
 {% include vimeoplayer.html id=page.video %}
+
+**Adding Stereoscopic View:**
+
+First I head on over to [Google VR for Unity](https://developers.google.com/vr/unity/download) page and download their sdk. Enabling a stereo camera is as simple as adding a `StereoController` script component to the camera. I build and run the project now, slip my iPhone into the cardboard headset and I am now controlling the cube in the VR world!

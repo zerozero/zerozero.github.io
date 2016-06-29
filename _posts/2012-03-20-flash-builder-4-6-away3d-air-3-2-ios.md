@@ -6,6 +6,7 @@ author: zerozero
 layout: post
 categories:
   - code
+disqus: yes
 ---
 Here's how I got a basic barebones Away3D scene running under AIR 3.2 on iOS built with Flash Builder 4.6 on OS X. 
 

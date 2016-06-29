@@ -7,6 +7,7 @@ layout: post
 categories:
   - art
 video: 72379699
+disqus: no
 ---
 Using &#8216;GorillaCam&#8217; on iPhone.
 

@@ -6,6 +6,7 @@ author: zerozero
 layout: post
 categories:
   - code
+disqus: no
 ---
 Pure oxygen is a fork of [Greg Jastrab&#8217;s puremvcgen ant tool](http://blog.smartlogicsolutions.com/2008/12/05/introducing-puremvcgen-an-ant-based-puremvc-flex-generator/). I&#8217;ve been successfully using his code generation tool on my [PureMVC](puremvc.org) projects for a few years now and it has made my life a bit easier. It&#8217;s good but it does have it&#8217;s limitations and is slightly annoying in forcing the user to manually enter names for static variable names and values and view component getters when these could (and probably should) all be derived. I like my mvc classes to be as consistent as possible so code generation is a great way to achieve this but manually entering the same thing in camel-case, upper-case and lower-case is no fun and an invitiation for errors to creep in.<!--more-->
 

@@ -6,6 +6,7 @@ author: zerozero
 layout: post
 categories:
   - code
+disqus: no
 ---
 Easy auto-restart of a locomotive.js server when editing files.
 

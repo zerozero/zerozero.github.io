@@ -1,16 +1,18 @@
 ---
-layout: page
+layout: post
 title: Tic
 date: 2016-05-16T16:44:29+00:00
 project: true
 video: 167115527
 description: Machine learning control of audio output with facial expressions.
+disqus: yes
 tech:
  - OpenFrameworks
  - OpenCV
  - Wekinator
  - Max/MSP
  - C++
+
 ---
 
 {% include vimeoplayer.html id=page.video %}

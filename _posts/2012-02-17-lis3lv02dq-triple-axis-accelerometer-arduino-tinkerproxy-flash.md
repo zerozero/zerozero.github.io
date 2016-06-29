@@ -7,6 +7,7 @@ layout: post
 categories:
   - code
 video: 171226321
+disqus: yes
 ---
 This week I have been playing with the [LIS3LV02DQ TRIPLE AXIS ACCELEROMETER](http://www.sparkfun.com/products/758) (now retired) and attempting to get it spitting data into flash.
 

@@ -7,6 +7,7 @@ layout: post
 categories:
   - art
 video: 32745652
+disqus: yes
 ---
 _Taking as it's point of origin Michel Foucault's analysis of Jorge Luis Borges' quotation from the &#8216;Celestial Emporium of Benevolent Knowledge's Taxonomy'<sup>[<a name="id394062" href="#ftn.id394062">*</a>]</sup>. Untyped Array is an apparatus for observing a taxonomy of Empty Objects - those that are discarded, useless, without function or inchoate._
 
