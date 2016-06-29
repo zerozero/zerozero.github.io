@@ -8,31 +8,34 @@ disqus: yes
 ---
 
 **Objective:**
-Picking up again on the development of this game. I have upgraded my skills in several areas over the last year so I now want to push this idea through but - as is the way of these things - my scope has become a bit more ambitious. I really want to get some VR going and I have a Google Cardboard rig to hand so I'm going to target that primarily. My Unity skills are up to that task now. I have also been working with machine learning techniques and have started developing some interesting ways of working with the LEAP motion controller along with Wekinator (a tool for real-time ML processing). So here's the aim
+I really want to get some VR going and I have a Google Cardboard rig to hand so I'm going to target that. I have also been working with machine learning techniques and have started developing some interesting ways of working with the LEAP motion controller along with Wekinator (a tool for real-time ML processing). So here's the aim
 
 	LEAP Motion --> OpenFrameworks --> Wekinator --> Google Cardboard
-	
-All messaging will be done with OSC and Wekinator will learn to recognise certain hand gestures which it will pass into the Cardboard VR app to control the hero dragonfly in Meadowlark.
 
-In part 2 I'll be attempting to get a simple communication going between the LEAP and a Unity scene with OSC.
+All messaging will be done with OSC and Wekinator will learn to recognise certain hand gestures which it will pass into the Cardboard VR app to control the hero character in Meadowlark.
+
+For starters I'll be attempting to get a simple communication going between the LEAP and a Unity scene with OSC.
 
 **Get Things:**
 
 - [LeapOSC](https://github.com/genekogan/LeapOSC) - open source openFrameworks LEAP motion data streaming
 - [UnityOSC](https://github.com/jorgegarcia/UnityOSC) - open source library for sending and receiving OSC
+- [GoogleVR for Unity](https://developers.google.com/vr/unity/download) - prefabs for stereo cameras and other VR goodies from Google.
+- XCode
+- Unity (obvs.)
 
 **Set up:**
 
 _openFrameworks_
-Opening LeapOSC in XCode the first thing to check is that the active scheme is set correctly, this is set in the upper left of the toolbar - for some reason it often defaults to openFrameworks but it needs to be changed to "LeapOSC Debug" (or Release).
+Opening 'LeapOSC.xcodeproj' in XCode, the first thing to check is that the active scheme is set correctly, this is set in the upper left of the toolbar - for some reason it often defaults to "openFrameworks" but it needs to be changed to "LeapOSC Debug" (or Release).
 
 ![Active Scheme]({{ site.baseurl }}/images/uploads/meadowlark-part-2/m1.png)
 
-With the LEAP controller attached via USB we can hit Run and view the input from our hands.
+With the LEAP controller attached via USB I hit Run and view the input from my hand.
 
 ![Viewport]({{ site.baseurl }}/images/uploads/meadowlark-part-2/m3.png)
 
-Looking in `src/ofApp.h` we can see the default values for OSC communication are:
+Looking in `src/ofApp.h` I can see the default values for OSC communication are:
 
 ```csharp
 #define DEFAULT_LEAP_OSC_ADDRESS "/wek/inputs"
@@ -40,14 +43,16 @@ Looking in `src/ofApp.h` we can see the default values for OSC communication are
 #define DEFAULT_LEAP_OSC_PORT 6448
 ```
 
-Let's leave these as they are for now since to start with we'll run Unity on the same machine. 
+I'll leave these as they are for now since to start with I'm running Unity on the same machine. 
 
 _Unity_
-I've created a new empty Unity project and I'm going to use [this library](https://github.com/jorgegarcia/UnityOSC) to receive OSC messages. I'm not going to use the OSC helper editor panel that's included so all I need to copy over is the OSC folder which I drag into my Assets folder.
+I've created a new empty Unity project and I'm going to use [this library](https://github.com/jorgegarcia/UnityOSC) to receive OSC messages. I'm not going to use the OSC helper editor panel that's included with this library so all I need to copy over is the OSC folder which I drag into my Assets folder.
 
-Make sure to enable running in the background for the Unity app by going to Edit -> Project Settings -> Player and toggling 'Run in Background' to true. Then when running both apps make sure the ofApp has focus otherwise it pauses execution and no values are output.
+I make sure to enable running-in-the-background for the Unity app by going to Edit -> Project Settings -> Player and toggling 'Run in Background' to true. Then when running both apps I just have to make sure the ofApp has focus otherwise it pauses execution and no values are output.
 
-For this first test I'll simply attach a new script to the main camera and call it LeapOSCHandler - I don't need to send any data back to the LEAP so this script will just handle incoming messages. The LeapOSC openFrameworks app can send left and/or right hand data out, to keep things simple for now I'm just using the right hand.  We know that the port the ofApp is sending on is 6448 so we'll configure a server for that. Here's my LeapOSCHandler script with inline commentary:
+For this first test I'll simply attach a new script to the main camera in my Unity Scene and call it LeapOSCHandler - I don't need to send any data back to the LEAP so this script will just handle incoming messages. The LeapOSC ofApp can send left and/or right hand data out, to keep things simple for now I'm just using the right hand. I also create a cube in the scene and leave it named as the default 'Cube'.
+
+I know that the port the ofApp is sending on is 6448 so I'll configure a server (OSC receiver) for that. Here's my LeapOSCHandler script with inline commentary:
 
 ```csharp
 using System;
@@ -305,14 +310,14 @@ Then I _Build & Run_.. which results in a **Failed Build**
 >ld: -undefined and -bitcode_bundle (Xcode setting ENABLE_BITCODE=YES) cannot be used together
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
-So I go back to _Build Settings_ and toggle off Enable Bitcode. Now the product builds correctly but the app dies with a fatal error:
+So I go back to _Build Settings_ in Xcode and toggle off Enable Bitcode. Now the product builds correctly but the app dies with a fatal error:
 
 >dyld: Symbol not found: __ZN6il2cpp6icalls6System6System14ComponentModel14Win32Exception15W32ErrorMessageEi
   Referenced from: /var/containers/Bundle/Application/CE52036C-B9DC-499A-AB18-A2B8A8D65E84/meadowlark.app/meadowlark
   Expected in: flat namespace
  in /var/containers/Bundle/Application/CE52036C-B9DC-499A-AB18-A2B8A8D65E84/meadowlark.app/meadowlark
 
-So why would it run in the simulator but not on the device? After some Googling I go back to Unity's _Player Settings_ and under _Other Settings_ set
+So why would it run in the simulator but not on the device? After some Googling.. aha!.. I go back to Unity's _Player Settings_ and under _Other Settings_ set
  - Target SDK: Device SDK (was Simulator SDK)
 
 That runs now.
@@ -320,7 +325,7 @@ That runs now.
 So one change to make in the OpenFrameworks app. In 'ofApp.h' I need to set the `#define DEFAULT_LEAP_OSC_IP` to the local network address of my iPhone. Run both apps and this is the result - the cube on the iPhone is controlled using data sent as OSC messages from the LEAP controller app running on the Mac. **This will enable me now to interact with objects in a VR world using hand gestures.**
 
 {% include vimeoplayer.html id=page.video %}
-
+<br/>
 **Adding Stereoscopic View:**
 
-First I head on over to [Google VR for Unity](https://developers.google.com/vr/unity/download) page and download their sdk. Enabling a stereo camera is as simple as adding a `StereoController` script component to the camera. I build and run the project now, slip my iPhone into the cardboard headset and I am now controlling the cube in the VR world!
+First I head on over to [Google VR for Unity](https://developers.google.com/vr/unity/download) page and download their sdk. Enabling a stereo camera is as simple as adding a `StereoController` script component to the camera - or alternatively replacing the camera with a GvrMain prefab that ships with the Google VR for Unity package. I build and run the project now, slip my iPhone into the cardboard headset and I am now controlling the cube in the VR world! Next up I'll be fixing the LEAP to my headset, fixing coordinate systems and rendering some kind of representation of the hand in the VR world. Stay tuned.
