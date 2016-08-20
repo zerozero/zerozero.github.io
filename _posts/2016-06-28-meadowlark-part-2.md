@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity3D + LEAP + Google Cardboard. Meadowlark Part 2.
+title: Unity3D + LEAP + iOS + Google Cardboard. Meadowlark Part 2.
 category: Code
 description: Low-poly Unity game (devlog part 2)
 video: 172549546
