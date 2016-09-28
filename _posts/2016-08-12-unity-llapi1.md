@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity LLAPI
+title: Unity LLAPI Part 1 - Client
 category: Code
 description: Setting up a client - server network architecture with Unity's LLAPI
 ---
