@@ -5,7 +5,7 @@ category: Code
 description: Setting up a client - server network architecture with Unity's LLAPI
 ---
 
-Before I begin a note about my dev environment: I use a Mac as my primary dev machine and not having a spare machine to hand the question of how to run two instances of Unity concurrently arises when trying to test client-server code. My first attempt was to launch two instances of Unity on the same machine as documented [here](http://answers.unity3d.com/questions/8408/open-multiple-projects.html). However this won't work because we need the two instances to be on different ip addresses, so my solution was to create a virtual machine (Windows) using [VBox](https://www.virtualbox.org/). I also found it useful to plug in an external drive that I could mount as a shared drive on the virtual machine. This enabled me to maintain a single copy of each of the client and server projects on the external drive and launch either project on either machine. The alternative would be to somehow maintain duplicate copies of the 2 projects since my Mac hard drive is not visible to the Windows VM.
+Before I begin, a note about my dev environment: I use a Mac as my primary dev machine and not having a spare machine to hand the question of how to run two instances of Unity concurrently arises when trying to test client-server code. My first attempt was to launch two instances of Unity on the same machine as documented [here](http://answers.unity3d.com/questions/8408/open-multiple-projects.html). However this won't work because we need the two instances to be on different ip addresses, so my solution was to create a virtual machine (Windows) using [VBox](https://www.virtualbox.org/). I also found it useful to plug in an external drive that I could mount as a shared drive on the virtual machine. This enabled me to maintain a single copy of each of the client and server projects on the external drive and launch either project on either machine. The alternative would be to somehow maintain duplicate copies of the 2 projects since my Mac hard drive is not visible to the Windows VM.
 
 
 **Server code**
@@ -251,7 +251,7 @@ public void ExecuteMessageString( string type, float value, string trackId )
 
 And that's it! The clients each have similar methods that execute the incoming message from the server. For my purposes this was all I needed along with a state machine implementation that I used to give some structure and prevent the clients from getting into impossible states.
  
- You can grab the code frome [here]() and try it out for yourself. It should work with any reasonably current version of Unity and has no external dependencies. Good Luck..
+ You can grab the code frome [here](https://github.com/zerozero/zerozero.github.io/tree/master/code/LLAPI) and try it out for yourself. It should work with any reasonably current version of Unity and has no external dependencies. Good Luck..
 
 
 
