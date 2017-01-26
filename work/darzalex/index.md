@@ -35,11 +35,12 @@ Created for a world leading pharmaceutical company I was the developer/technical
 To efficiently manage the data model of the application I used StrangeIoC dependency injection framework combined with the NewtonVR physics library to realistically simulate physical interactions. The patient is data modelled with various physical properties such as blood pressure, respiratory rate and blood oxygen levels, all of which respond realistically to the administration of the drug. In addition character animations controlled by a Mecanim state machine and animated shader values to produce skin-tone and sweat responses are built into the system.
 
 My responsibilities included:
- - Define frameworks and tooling
- - Architect code base and define source control and collaboration methodology
- - Implement 3D models, materials and shaders in line with art team vision 
- - Create flexible, dynamic animation system to accurately convey patient health
- - Produce robust, clean, tested code and documentation
+
++ Define frameworks and tooling
++ Architect code base and define source control and collaboration methodology
++ Implement 3D models, materials and shaders in line with art team vision 
++ Create flexible, dynamic animation system to accurately convey patient health
++ Produce robust, clean, tested code and documentation
 
 
 
