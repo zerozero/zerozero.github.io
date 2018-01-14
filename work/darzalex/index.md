@@ -25,8 +25,6 @@ video: 201068644
 </div>
 <br/>
 
-This project is not yet in the public domain - please [contact me](mailTo:mail@jonrowe.com?subject='password please') to request access to the video.
-
 {% include vimeoplayer.html id=page.video %}
 
 <br/>
