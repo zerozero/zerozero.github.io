@@ -25,7 +25,6 @@ video: 201068644
 </div>
 <br/>
 
-
 {% include vimeoplayer.html id=page.video %}
 
 <br/>
