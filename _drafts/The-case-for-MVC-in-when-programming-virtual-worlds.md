@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The case for MVC in VR
+title: The case for DI in VR
 category: Code
 ---
 <div class="img_row">
