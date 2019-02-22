@@ -251,6 +251,13 @@ overflow: hidden;
 box-sizing:border-box;
 padding: $img_spacing;
 }
+.img_row_tall{
+    height: $img_height_tall;
+    width: 100%;
+    overflow: hidden;
+    box-sizing:border-box;
+    padding: $img_spacing;
+}
 .col{ 
 width: 100%;
 height: 100%;
