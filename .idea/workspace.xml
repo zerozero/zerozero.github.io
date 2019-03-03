@@ -2,229 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f06053-67df-4186-b5cd-38a28b8cbc40" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/404.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/_drafts/Sampuru-unity-hololens-competition-devlog.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_drafts/The-case-for-MVC-in-when-programming-virtual-worlds.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_drafts/att-firstnet-vr.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_drafts/final-ik-oculus-touch.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_drafts/holobridge-plm-ui.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_drafts/ibm-global-technology-services-vr.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_includes/dq.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/ga.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/mobile-menu.html" afterPath="$PROJECT_DIR$/_includes/mobile-menu.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/navigation.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_includes/share.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_includes/simple-slider.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_includes/slider.html" afterPath="$PROJECT_DIR$/_includes/slider.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/tech.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
       <change beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_photos/2016-06-16-tokyo.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-01-28-pure-oxygen-code-generator-for-puremvc.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-02-17-lis3lv02dq-triple-axis-accelerometer-arduino-tinkerproxy-flash.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-02-17-untyped-array-a-taxonomy-of-empty-things.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-20-flash-builder-4-6-away3d-air-3-2-ios.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-08-19-blender-3d-carnegie-mellon-bvh-motion-capture-remapping.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-12-08-brnk.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-05-02-running-locomotive-js-with-nodemon.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-03-leap-motion-controller-leapmotionas3-away3d.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-19-timelapse-experiments.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-21-processing-leap-motion-controller-minim.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-04-02-meadowlark.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-05-16-machime-learning.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-06-28-meadowlark-part-2.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-08-12-unity-llapi1.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-09-24-unity-llapi2.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-09-28-unity-shaderlab-reference.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_sass/_base.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_sass/_layout.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_sass/_styles.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_sass/_syntax-highlighting.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_sass/_tomorrow.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/about.md" />
-      <change beforePath="$PROJECT_DIR$/archives.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/code/LLAPI/ClientSocket.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/code/LLAPI/ServerSocket.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/main.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/feed.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/30980442004_60f27b5ab3_b.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/404.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/IMG_0026.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/IMG_0856.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/IMG_0991.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/POLA/POLA_AWARD.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/Stephen-Hawking-AI-248011 copy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/Stephen-Hawking-AI-248011.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/Tell.pages.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/attfirstnet/gamestatefsm.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/attfirstnet/scenario-flow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/belly/b1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/belly/b2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/belly/b3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/belly/b4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/belly/b5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/belly/b6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/belly/b7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/belly/b8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/belly/bellyviz.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/belly/tinplane.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/config.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/csad/bolex.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/first-post.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/3d-printed-head.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/Darzalex.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/FinalIKOculusTouch.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/LLAPI.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/acer-main.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/acer-poster-frame.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/belly.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/collider.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/csad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/dada.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/devices.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/firstnet.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/firstnet.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/fortunity-characters.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/fortunity_large3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/hurdles.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/lego.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/mOS.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/machine-learning.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/makerbot-trolley.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/netplaygrey.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/plarivermap-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/plarivermap-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/plarivermap-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/plarivermap-4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/pottermore_large.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/repwrite_large.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/sudoku.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/heroes/tolv0213.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/hud1994.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/jekyll-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/jekyll-now-theme-screenshot.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC02925.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC02979.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC02999.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC03021.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC03023.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC03050.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC03053.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC03064.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC03066.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC03068.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC03070.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC03082.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/photos/tokyo/DSC03088.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/prof_pic.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/real-time1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/step1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sudoku/screen4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/thegreatest.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/thepublic/01_13_project_image.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/thepublic/02_13_project_image.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/thepublic/03_12_project_image.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/thepublic/thepublic.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/tolvnetter/deep02.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/tolvnetter/tolv0200.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/tolvnetter/tolv0205.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/tolvnetter/tolv0208.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/tolvnetter/tolv0212.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/tolvnetter/tolv0213.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/tolvnetter/tolv201.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/BVHacker1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/BVHacker2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/IMG_1712_c.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/acc_ard_fla_bb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/acc_ard_fla_schem.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/acc_ard_fla_screenshot1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/apparatus-drawing.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/brnk_large.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/dragonfly5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/heatmap.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/meadowlark-part-2/m1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/meadowlark-part-2/m2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/meadowlark-part-2/m3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/meadowlark_diorama1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/meadowlark_diorama2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/rigged-dragonfly.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/rigged-dragonfly2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/throw_00143.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/vitrine_mockup.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/uploads/vitrine_skp.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0000_l_hand_cap_touch_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0001_l_hand_cap_touch_index_mask_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0002_l_hand_cap_touch_thumb_mask_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0003_l_hand_default_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0004_l_hand_fist_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0005_l_hand_hold_generic_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0006_l_hand_hold_l_controller_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0007_l_hand_hold_ping_pong_ball_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0008_l_hand_pinch_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0009_l_hand_point_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0010_l_hand_relax_3qtr_fist_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0011_l_hand_relax_mid_fist_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/cropped/pose_0012_l_hand_thumbs_up_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/flex_layer.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/flex_layer_blend_tree.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/hand_pose_list.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/handposes.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/l_hand_cap_touch.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/l_hand_cap_touch_index.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/l_hand_cap_touch_thumb_mask.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/l_hand_default.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/l_hand_hold_generic.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/l_hand_hold_l_controller.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/mixamo-rigged-character.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0000_l_hand_cap_touch_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0001_l_hand_cap_touch_index_mask_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0002_l_hand_cap_touch_thumb_mask_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0003_l_hand_default_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0004_l_hand_fist_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0005_l_hand_hold_generic_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0006_l_hand_hold_l_controller_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0007_l_hand_hold_ping_pong_ball_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0008_l_hand_pinch_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0009_l_hand_point_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0010_l_hand_relax_3qtr_fist_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0011_l_hand_relax_mid_fist_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/vrik/poses/pose_0012_l_hand_thumbs_up_anim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pages.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/photos.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/projects.md" afterPath="$PROJECT_DIR$/projects.md" />
-      <change beforePath="$PROJECT_DIR$/work/acer-olympics/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/belly-dont-know/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/boston-scientific-360/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/coolroom/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/dada-game/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/darzalex/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/degree-show/central-st-martins-degree-show-1987.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/diy-makerbot/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/fortunity/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/lbs-hurdles/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/mtv-party-zone/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/netplay-tv/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/port-of-london/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/pottermore/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/repwrite/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/science-museum-collider/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/science-museum-tell/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/sudoku-countdown/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/the-public/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/tokyo-trains/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/work/tolv-netter/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/_theme-white.scss" afterPath="$PROJECT_DIR$/_sass/_theme-white.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/style.scss" afterPath="$PROJECT_DIR$/assets/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -238,11 +18,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="475">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="888">
+              <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_theme-white.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/_theme-white.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -263,6 +63,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -311,6 +121,7 @@
       <find>@media screen and</find>
       <find>prepend</find>
       <find>baseurl</find>
+      <find>mb-2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -332,7 +143,6 @@
         <option value="$PROJECT_DIR$/archive.md" />
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_site/assets/style.css" />
-        <option value="$PROJECT_DIR$/_sass/_theme-white.scss" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
@@ -340,8 +150,9 @@
         <option value="$PROJECT_DIR$/collections/_projects/acer-olympics/index.md" />
         <option value="$PROJECT_DIR$/projects.md" />
         <option value="$PROJECT_DIR$/_includes/image-gallery.html" />
-        <option value="$PROJECT_DIR$/_layouts/page.html" />
         <option value="$PROJECT_DIR$/_includes/navbar.html" />
+        <option value="$PROJECT_DIR$/_sass/_theme-white.scss" />
+        <option value="$PROJECT_DIR$/_layouts/page.html" />
         <option value="$PROJECT_DIR$/assets/style.scss" />
       </list>
     </option>
@@ -353,8 +164,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="2365" />
+    <option name="x" value="-4" />
+    <option name="width" value="1954" />
     <option name="height" value="1634" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -394,6 +205,21 @@
               <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -403,7 +229,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backup/zerozero.github.io" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -451,13 +277,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43316000" />
+    <option name="totallyTimeSpent" value="45771000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="2359" height="1634" extended-state="0" />
+    <frame x="-4" y="0" width="1954" height="1634" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19808862" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24037954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -623,6 +449,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -691,6 +518,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -723,13 +551,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="2361" column="0" lean-forward="false" selection-start-line="2361" selection-start-column="0" selection-end-line="2361" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_theme-white.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -815,33 +637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="20" column="118" lean-forward="false" selection-start-line="20" selection-start-column="106" selection-end-line="20" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1291">
-          <caret line="99" column="28" lean-forward="false" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -857,8 +656,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="475">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_theme-white.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
           <folding />
         </state>
       </provider>

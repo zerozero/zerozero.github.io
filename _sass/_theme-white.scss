@@ -4,13 +4,13 @@
 $black: #181818;
 $red: #E74727;
 $red-dark: #cd000e;
-$gray-light: #cd000e;
+$gray-light: #d2d4c2;
 $white: #fff;
 
 // Config
-$color-background: $gray-light !default;
+$color-background: $white !default;
 $color-dot-accent: $red !default;
-$color-foreground: $white !default;
+$color-foreground: $black !default;
 $color-title: $black !default;
 $color-body-text: $black !default;
 $color-text-accent: $red-dark !default;
