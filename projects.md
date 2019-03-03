@@ -1,20 +1,19 @@
 ---
 layout: page
-permalink: /work/
-title: projects
-menuItem: true
-description: Archived projects
+title: Featured Projects
+menu: Featured
+permalink: /projects/
+order: 2
 ---
 
-<ul class="post-list">
-{% assign items = site.pages | sort: 'date' %}
-{% for page in items reversed %}
-{% if (page.project) %}
+{% include image-gallery.html folder="/images/square/" %}
+
+{% comment %}
+<ul>
+  {% for project in site.projects %}
     <li>
-        <h2><a class="poem-title" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
-        <p class="post-meta">{{ page.date | date: '%B %Y' }}</p>
-		<p>{{ page.description }}</p>
-      </li>
-{% endif %}
-{% endfor %}
+      <a href="{{ project.url }}">{{ project.name }}</a>
+    </li>
+  {% endfor %}
 </ul>
+{% endcomment %}

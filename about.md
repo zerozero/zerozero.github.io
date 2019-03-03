@@ -1,30 +1,23 @@
 ---
 layout: page
-title: about
+title: About
+menu: About
 permalink: /about/
+order: 1
 ---
 
-<img class="col one right" src="/images/prof_pic.jpg">
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-<br/>
-I'm a coder, artist, nomad and food lover currently based in London, UK. Over the last 18 years I have made a living creating interactive content for brands and agencies. Alongside the commercial stuff I also make work for myself, for the sheer joy of being creative. This is what sustains me and makes some of the less interesting stuff bearable. This and food.
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
 
-On the blog you'll find links to my project archive, that's all the serious stuff that clients ask me to do and I get paid for. The rest of the blog is dedicated to my passions: art, food, music and wellbeing.
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
 
 
-<br/>
-<hr/>
-<br/>
-<span class="contacticon center">
-	<a href="mailto:mail@jonrowe.com"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com/zerozero/zerozero.github.io" target="_blank"><i class="fa fa-github-square"></i></a>
-	<a href="https://uk.linkedin.com/in/mrjonrowe" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-	<!--a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i></a-->
-	<a href="https://twitter.com/jonrowe_human" target="_blank"><i class="fa fa-twitter-square"></i></a>
-	<a href="https://www.facebook.com/jon.rowe.31" target="_blank"><i class="fa fa-facebook-square"></i></a>
-</span>
+[jekyll-organization]: https://github.com/jekyll
 
-<div class="col three caption">
-	Your best bet is to mail me.
-</div>
-
+$ cd /mnt/g/Projects/jonrowe.com/blog/zerozero2.github.io/zerozero2
+$ bundle exec jekyll serve --draft

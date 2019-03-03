@@ -1,0 +1,101 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` and set theme here
+@import
+        "bootstrap",
+        "theme-{{ site.theme_color | default: "black" }}.scss"
+
+;
+
+.main-feature {
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        right: 0px;
+        background: white;
+        color: white;
+        padding: 0px;
+        transform: translateY(-50%);
+        resize: vertical;
+        overflow: auto;
+        max-width: 980px;
+        margin: 0 auto;
+        z-index: -100;
+}
+
+.white-header-background { background-color: #ffffff; }
+
+.navbar-brand-subtitle {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+
+.navbar-default .navbar-brand {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+
+.header-link:hover {
+        color: #a8a8a8 !important;
+}
+
+.link-primary {
+  font-weight: normal;
+  text-decoration: none !important;
+}
+
+.image-gallery {
+  width: 100% !important;
+}
+
+.image-gallery img{
+   -webkit-filter: grayscale(100%) sepia(30%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%) sepia(30%);
+ }
+
+.image-gallery img:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+.border-top-thin{
+  border-top:0px solid;
+}
+
+.border-bottom-thick{
+  border-bottom: 0px solid;
+}
+
+
+@media screen and (max-width: 767px){
+  .navbar-brand-subtitle {
+    font-size: 12px;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 14px;
+  }
+
+}
+
+.py-0-4 { padding-top: 0px; padding-bottom: 32px; }
+.ml-0-1 { margin-left: -2px !important; }
+.mt-0-1 { margin-top: -2px !important; }
+.h0 { font-size: 32px }
+@media (min-width: 52em){
+  .py-0-4 { padding-top: 0px; padding-bottom: 64px; }
+  .ml-0-1 { margin-left: -3px !important; }
+  .mt-0-1 { margin-top: -5px !important; }
+  .h0 { font-size: 64px }
+}
+
+.current-page{
+  color: #cd000e !important;
+}

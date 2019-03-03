@@ -65,7 +65,7 @@ transform-origin: 50% 50%;
             //show toggler if not exists
             if(!($("#mobile-menu-toggler").length>0)) {
                 var mobilemenuheight = $('#mobile-menu').height();
-                var toggler = "<a id='mobile-menu-toggler' onclick='mobilemenutoggle();' style='height: 56px; line-height: "+(mobilemenuheight-1)+"px;'><span class='mobile-menu-text open'></span><span class='mobile-menu-text'>MENU</span><span class='mobile-menu-icon'></span></a>";
+                var toggler = "<a id='mobile-menu-toggler' onclick='mobilemenutoggle();' style='height: "+mobilemenuheight+"px; line-height: "+(mobilemenuheight-1)+"px;'><span class='mobile-menu-text open'></span><span class='mobile-menu-text'>MENU</span><span class='mobile-menu-icon'></span></a>";
                 $( "#mobile-menu" ).prepend( toggler );
             }
         }
