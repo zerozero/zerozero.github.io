@@ -10,6 +10,46 @@
 
 ;
 
+.aktiv-regular{
+  font-family: aktiv-grotesk,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aktiv-italic{
+  font-family: aktiv-grotesk,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.aktiv-bold{
+  font-family: aktiv-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.aktiv-thin{
+  font-family: aktiv-grotesk-thin,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.aktiv-thin-italic{
+  font-family: aktiv-grotesk-thin,sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.header-text{
+  font-family: aktiv-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+  font-family: aktiv-grotesk,sans-serif;
+}
+
 .main-feature {
         position: absolute;
         top: 50%;
@@ -53,19 +93,6 @@
   text-decoration: none !important;
 }
 
-.image-gallery {
-  width: 100% !important;
-}
-
-.image-gallery img{
-   -webkit-filter: grayscale(100%) sepia(30%); /* Safari 6.0 - 9.0 */
-   filter: grayscale(100%) sepia(30%);
- }
-
-.image-gallery img:hover{
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-}
 .border-top-thin{
   border-top:1px solid lightgray;
 }
@@ -77,10 +104,10 @@
 
 @media screen and (max-width: 767px){
   .navbar-brand-subtitle {
-    font-size: 12px;
+    font-size: 14px;
   }
   .navbar-default .navbar-brand {
-    font-size: 14px;
+    font-size: 16px;
   }
 
 }
@@ -113,6 +140,7 @@ $theme-color:   $color-text-accent;
 /* portfolio tinkering */
 $img_spacing: 10px;
 $img_height: 325px;
+$caption_height: 50px;
 $img_height_tall: 750px;
 $caption_font_size: 12px;
 $caption_color: #aaa;
@@ -121,26 +149,26 @@ $caption_color: #aaa;
   background: $theme-color;
 }
 .img_row{
-  height: $img_height;
+  height: auto;
   width: 100%;
   overflow: hidden;
   box-sizing:border-box;
-  padding: $img_spacing;
+  padding: $img_spacing $img_spacing $img_spacing 0px;
 }
 .img_row_tall{
   height: $img_height_tall;
   width: 100%;
   overflow: hidden;
   box-sizing:border-box;
-  padding: $img_spacing;
+  padding: $img_spacing $img_spacing $img_spacing 0px;
 }
 .col{
   width: 100%;
-  height: 100%;
+  height: auto;
   float: left;
   object-fit: cover;
   box-sizing:border-box;
-  padding: $img_spacing;
+  padding: $img_spacing 0px;
 }
 .right{
   float: right;
@@ -154,10 +182,84 @@ $caption_color: #aaa;
 .three{
   width: 100%;
 }
+
+@media screen and (max-width: 767px){
+
+  .one {
+    width:100%;
+  }
+  .two {
+    width: 100%;
+  }
+}
 .caption{
   height: 100%;
   color: $caption_color;
   text-align: center;
   vertical-align: middle;
   font-size: $caption_font_size;
+}
+
+.caption_row{
+  height: $caption_height;
+  width: 100%;
+  overflow: hidden;
+  box-sizing:border-box;
+  padding: 0 $img_spacing;
+}
+
+.prose {
+
+  p, ol, ul {
+    font-size: 16px;
+    @media (min-width: $breakpoint-lg) {
+      width: 100% !important;
+    }
+  }
+
+  a {
+    color: $red-dark;
+  }
+}
+
+.vimeo-player-container{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.vimeo-player{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box{
+  flex: 1 1 auto;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.title-color{
+  background-color: $theme-color;
+  color: $white;
+  padding: 1px 7px;
+}
+
+article{
+  margin-top: 80px;
+  height: calc(100vh - 80px);
 }

@@ -1,23 +1,75 @@
 ---
 layout: page
-title: About
+title: About Me
 menu: About
 permalink: /about/
 order: 1
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+<div class="img_row">
+	<img class="col one left" src="{{ site.baseurl }}/images/about/IMG_2699.JPG" alt="" title="me"/>
+</div>
 
 
-[jekyll-organization]: https://github.com/jekyll
+<span class="aktiv-bold">I am a freelance Creative Technologist, Artist, Inventor.</span>
 
-$ cd /mnt/g/Projects/jonrowe.com/blog/zerozero2.github.io/zerozero2
-$ bundle exec jekyll serve --draft
+A graduate of Central St. Martins School of Art my 25+ year career consists of a hugely diverse variety of work ranging from channel idents for MTV (1990); projected visuals for the Clash at The Fridge in Brixton; exhibiting at the Institute of Contemporary Art; to an Augmented Reality app for Marina Abramović & The Nobel Prize Committee (2018).
+
+Currently my time is split between freelancing as a VR and AR engineer; working with Tech-Dance collective _Body Intelligence_ on a project fusing emotion sensing technology and dance; and investigating brain-computer interfaces in an effort to improve the way we interact with the virtual world.
+
+
+_March 2019_  
+<br />
+<br />
+- - -   
+<br />
+<br />
+**Here is the story of my journey in synthetic reality:**
+
+My first attempt at creating an immersive environment manifested in 1987. I was a student at Central School of Art in the sculpture department. At the time computers were not a common feature in art schools, the world wide web had not yet been born and even hand-held video cameras were only just starting to become available.
+
+My idea was to create an immersive experience by placing the viewer at the centre of a spherical screen onto which I would project film shot by three back-to-back cameras equipped with fish-eye lenses. The curvature of the screen should compensate for the distortion of the lens I figured.
+
+The piece premiered at my final degree show.
+
+<div class="img_row">
+	<img class="col one left" src="{{ site.baseurl }}/images/about/rig.jpg" alt="" title="rig"/>
+	<img class="col one left" src="{{ site.baseurl }}/images/about/BOLEX-PAILLARD.jpg" alt="" title="bolex"/>
+	<img class="col one left" src="{{ site.baseurl }}/images/about/csad.jpg" alt="" title="projection"/>
+</div>
+<div class="caption_row">
+    <div class="col three left caption">Analogue immersive environment, 1987</div>
+</div>
+
+
+Fast forward a few years, technology has moved on and I have moved to Dundee and a place on the Electronic Imaging course at Duncan of Jordanstone College. I had become interested in the writings of Jaron Lanier and the zeitgeist around virtual worlds that existed at the time. I felt myself motivated to attempt to create a stereoscopic head-mounted display of my own, [which I did]({{ site.baseurl}}/projects/the-icarus-project/index.html) using a diving mask, some cheap lenses, some mini LCD TV's and a miniature video camera.
+
+<div class="img_row">
+	<img class="col one left" src="{{ site.baseurl }}/images/about/hmd-square.jpg" alt="" title="hmd-square"/>
+</div>
+<div class="caption_row">
+    <div class="col one left caption">Mixed-reality headset prototype, 1994</div>
+</div>
+
+A few years later I am back in London and freelancing as a creative software developer having taught myself some visual programming stuff. The internet bubble is growing and Macromedia have just released the first version of Director to contain a 3D engine. Funded by BT and Universal pictures I create the [3D Coolroom]({{ site.baseurl}}/projects/coolroom/index.html) - a customisable virtual apartment where users can rent and play video and audio content, purchase real-world goods and share their creations with friends.
+
+<div class="img_row">
+	<img class="col one left" src="{{ site.baseurl }}/images/about/coolroom.jpg" alt="" title="hmd-square"/>
+</div>
+<div class="caption_row">
+    <div class="col one left caption">Online virtual apartment, 2003</div>
+</div>
+
+2016 sees the commercial release of the Rift and Vive platforms and I land a gig with Masters of Pie to create a VR training simulator for Janssen Pharmaceuticals. Designed to educate nurses in the administering of a new cancer medication, the simulation features a virtual patient who must be treated with an infusion of Darzalex and then observed as he exhibits various reactions to the drug. Participants learn to correctly diagnose and treat the resulting reactions either in the virtual world or via a second screen in a group session. The app won in the Most Valuable HCP Initiative category at the [Eye for Pharma awards 2018](https://www.eyeforpharma.com/awards/2018-winner-janssen.php){:target="_blank"}
+
+<div class="img_row">
+	<img class="col one left" src="{{ site.baseurl }}/images/about/darzalex.jpg" alt="" title="darzalex"/>
+</div>
+<div class="caption_row">
+    <div class="col one left caption">VR medical training simulator, 2016</div>
+</div>
+
+Most recently I have been providing engineering support for [Acute Art](https://acuteart.com/){:target="_blank"} in developing Virtual and Augmented reality apps for their roster of artists that includes Marina Abramović, Christo, Jeff Koons, Anthony Gormley and many others 
+
+ 
+

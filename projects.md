@@ -6,7 +6,7 @@ permalink: /projects/
 order: 2
 ---
 
-{% include image-gallery.html folder="/images/square/" %}
+{% include image-gallery-projects.html folder="/images/square/" %}
 
 {% comment %}
 <ul>
