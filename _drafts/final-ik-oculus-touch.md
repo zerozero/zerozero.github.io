@@ -16,7 +16,7 @@ set the local position of each to 0,0,0
 parent hands to LeftHandAnchor/RightHandAnchor
 parent head to centerEyeAnchor
 **Now** add the VRIK component to the character - this MUST be done after parenting the duplicates!
-Drag the parented head and hands transforms to the correct slots on the VRIK component
+Drag the *parented* head and hands transforms to the correct slots on the VRIK component
 Adjust the anchors at runtime to position correctly.
 
 Touch Controllers
