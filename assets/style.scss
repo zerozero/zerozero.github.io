@@ -263,3 +263,33 @@ article{
   margin-top: 80px;
   height: calc(100vh - 80px);
 }
+
+.date-square{
+  background-color: $theme-color;
+  display: flex;
+  margin: auto;
+  /*width: 100%;*/
+}
+
+.date-square:after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.no-pad-col{
+  /*height: auto;*/
+  float: left;
+  object-fit: cover;
+  box-sizing: border-box;
+  padding: 0px;
+
+}
+
+.date{
+  color: white;
+  font-family: aktiv-grotesk-thin, sans-serif;
+  margin: auto;
+  text-align: center;
+  font-size: 500%;
+}

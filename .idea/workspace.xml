@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f06053-67df-4186-b5cd-38a28b8cbc40" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_includes/image-gallery-projects.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/image-gallery.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_includes/navbar.html" afterPath="$PROJECT_DIR$/_includes/navbar.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/vimeoplayer.html" afterPath="$PROJECT_DIR$/_includes/vimeoplayer.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
       <change beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/about.md" />
       <change beforePath="$PROJECT_DIR$/assets/style.scss" afterPath="$PROJECT_DIR$/assets/style.scss" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/acer-olympics/index.md" afterPath="$PROJECT_DIR$/collections/_archive/acer-olympics/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/belly-dont-know/index.md" afterPath="$PROJECT_DIR$/collections/_archive/belly-dont-know/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/dada-game/index.md" afterPath="$PROJECT_DIR$/collections/_archive/dada-game/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/degree-show/index.md" afterPath="$PROJECT_DIR$/collections/_archive/degree-show/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/diy-makerbot/index.md" afterPath="$PROJECT_DIR$/collections/_archive/diy-makerbot/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/fortunity/index.md" afterPath="$PROJECT_DIR$/collections/_archive/fortunity/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/lbs-hurdles/index.md" afterPath="$PROJECT_DIR$/collections/_archive/lbs-hurdles/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/mtv-party-zone/index.md" afterPath="$PROJECT_DIR$/collections/_archive/mtv-party-zone/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/netplay-tv/index.md" afterPath="$PROJECT_DIR$/collections/_archive/netplay-tv/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/port-of-london/index.md" afterPath="$PROJECT_DIR$/collections/_archive/port-of-london/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/pottermore/index.md" afterPath="$PROJECT_DIR$/collections/_archive/pottermore/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/repwrite/index.md" afterPath="$PROJECT_DIR$/collections/_archive/repwrite/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/science-museum-collider/index.md" afterPath="$PROJECT_DIR$/collections/_archive/science-museum-collider/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/science-museum-tell/index.md" afterPath="$PROJECT_DIR$/collections/_archive/science-museum-tell/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/sudoku-countdown/index.md" afterPath="$PROJECT_DIR$/collections/_archive/sudoku-countdown/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/the-public/index.md" afterPath="$PROJECT_DIR$/collections/_archive/the-public/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/tokyo-trains/index.md" afterPath="$PROJECT_DIR$/collections/_archive/tokyo-trains/index.md" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/tolv-netter/index.md" afterPath="$PROJECT_DIR$/collections/_archive/tolv-netter/index.md" />
-      <change beforePath="$PROJECT_DIR$/projects.md" afterPath="$PROJECT_DIR$/projects.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,8 +50,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="234" column="6" lean-forward="false" selection-start-line="234" selection-start-column="6" selection-end-line="234" selection-end-column="6" />
+            <state relative-caret-position="1116">
+              <caret line="293" column="17" lean-forward="false" selection-start-line="293" selection-start-column="17" selection-end-line="293" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -102,8 +74,8 @@
         <entry file="file://$PROJECT_DIR$/about.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="500">
-                <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <first_editor relative-caret-position="975">
+                <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -117,13 +89,13 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1553274604134" expanded="true" signature="15220:15228" ph="›" />
-                <marker date="1553274604134" expanded="true" signature="15245:15253" ph="‹" />
-                <marker date="1553274604134" expanded="true" signature="15636:15644" ph="›" />
-                <marker date="1553274604134" expanded="true" signature="15661:15669" ph="‹" />
-                <marker date="1553274604134" expanded="true" signature="15697:15773" ph="..." />
-                <marker date="1553274604134" expanded="true" signature="16135:16143" ph="›" />
-                <marker date="1553274604134" expanded="true" signature="16160:16168" ph="‹" />
+                <marker date="1553600525713" expanded="true" signature="15220:15228" ph="›" />
+                <marker date="1553600525713" expanded="true" signature="15245:15253" ph="‹" />
+                <marker date="1553600525713" expanded="true" signature="15636:15644" ph="›" />
+                <marker date="1553600525713" expanded="true" signature="15661:15669" ph="‹" />
+                <marker date="1553600525713" expanded="true" signature="15697:15773" ph="..." />
+                <marker date="1553600525713" expanded="true" signature="16135:16143" ph="›" />
+                <marker date="1553600525713" expanded="true" signature="16160:16168" ph="‹" />
               </folding>
             </state>
           </provider>
@@ -134,16 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image-gallery.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/image-gallery.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="7" column="400" lean-forward="false" selection-start-line="7" selection-start-column="400" selection-end-line="7" selection-end-column="400" />
               <folding />
             </state>
           </provider>
@@ -237,7 +199,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
-    <option name="width" value="2305" />
+    <option name="width" value="1974" />
     <option name="height" value="1562" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -367,18 +329,17 @@
       <updated>1550848860560</updated>
       <workItem from="1550848861852" duration="15506000" />
       <workItem from="1551442560841" duration="27787000" />
-      <workItem from="1552045560145" duration="50144000" />
+      <workItem from="1552045560145" duration="53998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96537000" />
+    <option name="totallyTimeSpent" value="100391000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="2305" height="1562" extended-state="0" />
-    <editor active="true" />
+    <frame x="-10" y="0" width="1974" height="1562" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20996441" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24621806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -408,11 +369,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/about/IMG_1552.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1250">
@@ -737,13 +693,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1553274604134" expanded="true" signature="15220:15228" ph="›" />
-            <marker date="1553274604134" expanded="true" signature="15245:15253" ph="‹" />
-            <marker date="1553274604134" expanded="true" signature="15636:15644" ph="›" />
-            <marker date="1553274604134" expanded="true" signature="15661:15669" ph="‹" />
-            <marker date="1553274604134" expanded="true" signature="15697:15773" ph="..." />
-            <marker date="1553274604134" expanded="true" signature="16135:16143" ph="›" />
-            <marker date="1553274604134" expanded="true" signature="16160:16168" ph="‹" />
+            <marker date="1553600525713" expanded="true" signature="15220:15228" ph="›" />
+            <marker date="1553600525713" expanded="true" signature="15245:15253" ph="‹" />
+            <marker date="1553600525713" expanded="true" signature="15636:15644" ph="›" />
+            <marker date="1553600525713" expanded="true" signature="15661:15669" ph="‹" />
+            <marker date="1553600525713" expanded="true" signature="15697:15773" ph="..." />
+            <marker date="1553600525713" expanded="true" signature="16135:16143" ph="›" />
+            <marker date="1553600525713" expanded="true" signature="16160:16168" ph="‹" />
           </folding>
         </state>
       </provider>
@@ -761,8 +717,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="234" column="6" lean-forward="false" selection-start-line="234" selection-start-column="6" selection-end-line="234" selection-end-column="6" />
+        <state relative-caret-position="1116">
+          <caret line="293" column="17" lean-forward="false" selection-start-line="293" selection-start-column="17" selection-end-line="293" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -770,12 +726,17 @@
     <entry file="file://$PROJECT_DIR$/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="500">
-            <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <first_editor relative-caret-position="975">
+            <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/about/1987.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

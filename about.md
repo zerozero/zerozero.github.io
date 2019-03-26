@@ -24,7 +24,13 @@ _March 2019_
 - - -   
 <br />
 <br />
-**Here is the story of my journey in synthetic reality:**
+**My journey in synthetic reality.**
+
+<div class="img_row">
+	<div class="no-pad-col one left date-square">
+	    <span class="date">1987</span>
+	</div>
+</div>
 
 My first attempt at creating an immersive environment manifested in 1987. I was a student at Central School of Art in the sculpture department. At the time computers were not a common feature in art schools, the world wide web had not yet been born and even hand-held video cameras were only just starting to become available.
 
@@ -41,7 +47,11 @@ The piece premiered at my final degree show.
     <div class="col three left caption">Analogue immersive environment, 1987</div>
 </div>
 
-
+<div class="img_row">
+	<div class="no-pad-col one left date-square">
+	    <span class="date">1994</span>
+	</div>
+</div>
 Fast forward a few years, technology has moved on and I have moved to Dundee and a place on the Electronic Imaging course at Duncan of Jordanstone College. I had become interested in the writings of Jaron Lanier and the zeitgeist around virtual worlds that existed at the time. I felt myself motivated to attempt to create a stereoscopic head-mounted display of my own, [which I did]({{ site.baseurl}}/projects/the-icarus-project/index.html) using a diving mask, some cheap lenses, some mini LCD TV's and a miniature video camera.
 
 <div class="img_row">
@@ -50,7 +60,11 @@ Fast forward a few years, technology has moved on and I have moved to Dundee and
 <div class="caption_row">
     <div class="col one left caption">Mixed-reality headset prototype, 1994</div>
 </div>
-
+<div class="img_row">
+	<div class="no-pad-col one left date-square">
+	    <span class="date">2003</span>
+	</div>
+</div>
 A few years later I am back in London and freelancing as a creative software developer having taught myself some visual programming stuff. The internet bubble is growing and Macromedia have just released the first version of Director to contain a 3D engine. Funded by BT and Universal pictures I create the [3D Coolroom]({{ site.baseurl}}/projects/coolroom/index.html) - a customisable virtual apartment where users can rent and play video and audio content, purchase real-world goods and share their creations with friends.
 
 <div class="img_row">
@@ -59,7 +73,11 @@ A few years later I am back in London and freelancing as a creative software dev
 <div class="caption_row">
     <div class="col one left caption">Online virtual apartment, 2003</div>
 </div>
-
+<div class="img_row">
+	<div class="no-pad-col one left date-square">
+	    <span class="date">2017</span>
+	</div>
+</div>
 2016 sees the commercial release of the Rift and Vive platforms and I land a gig with Masters of Pie to create a VR training simulator for Janssen Pharmaceuticals. Designed to educate nurses in the administering of a new cancer medication, the simulation features a virtual patient who must be treated with an infusion of Darzalex and then observed as he exhibits various reactions to the drug. Participants learn to correctly diagnose and treat the resulting reactions either in the virtual world or via a second screen in a group session. The app won in the Most Valuable HCP Initiative category at the [Eye for Pharma awards 2018](https://www.eyeforpharma.com/awards/2018-winner-janssen.php){:target="_blank"}
 
 <div class="img_row">
@@ -69,6 +87,11 @@ A few years later I am back in London and freelancing as a creative software dev
     <div class="col one left caption">VR medical training simulator, 2016</div>
 </div>
 
+<div class="img_row">
+	<div class="no-pad-col one left date-square">
+	    <span class="date">Now</span>
+	</div>
+</div>
 Most recently I have been providing engineering support for [Acute Art](https://acuteart.com/){:target="_blank"} in developing Virtual and Augmented reality apps for their roster of artists that includes Marina Abramović, Christo, Jeff Koons, Anthony Gormley and many others 
 
  
