@@ -121,6 +121,7 @@ body{
   .ml-0-1 { margin-left: -3px !important; }
   .mt-0-1 { margin-top: -5px !important; }
   .h0 { font-size: 64px }
+  .px-4 { padding-left: 128px; padding-right: 128px; }
 }
 
 .current-page{
@@ -184,6 +185,16 @@ $caption_color: #aaa;
 }
 
 @media screen and (max-width: 767px){
+
+  .one {
+    width:50%;
+  }
+  .two {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px){
 
   .one {
     width:100%;
@@ -288,8 +299,8 @@ article{
 
 .date{
   color: white;
-  font-family: aktiv-grotesk-thin, sans-serif;
+  font-family: aktiv-grotesk, sans-serif;
   margin: auto;
   text-align: center;
-  font-size: 500%;
+  font-size: 420%;
 }

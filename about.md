@@ -24,7 +24,7 @@ _March 2019_
 - - -   
 <br />
 <br />
-**My journey in synthetic reality.**
+**It wasn't until much later** that it started to make sense. All the experiments over the years, the half-caught ideas. In fact it wasn't until I had experienced the Oculus Rift that I looked back and realised that _this_ is what I'd been striving for all these years. So I pieced it together. Here is the story of my journey in synthetic reality..
 
 <div class="img_row">
 	<div class="no-pad-col one left date-square">
@@ -34,18 +34,38 @@ _March 2019_
 
 My first attempt at creating an immersive environment manifested in 1987. I was a student at Central School of Art in the sculpture department. At the time computers were not a common feature in art schools, the world wide web had not yet been born and even hand-held video cameras were only just starting to become available.
 
+<div class="img_row">
+	<img class="col one left" src="{{ site.baseurl }}/images/about/fisheye.jpg" alt="" title="projection"/>
+	<img class="col one left" src="{{ site.baseurl }}/images/about/BOLEX-PAILLARD.jpg" alt="" title="bolex"/>
+</div>
+
 My idea was to create an immersive experience by placing the viewer at the centre of a spherical screen onto which I would project film shot by three back-to-back cameras equipped with fish-eye lenses. The curvature of the screen should compensate for the distortion of the lens I figured.
 
 The piece premiered at my final degree show.
 
 <div class="img_row">
 	<img class="col one left" src="{{ site.baseurl }}/images/about/rig.jpg" alt="" title="rig"/>
-	<img class="col one left" src="{{ site.baseurl }}/images/about/BOLEX-PAILLARD.jpg" alt="" title="bolex"/>
 	<img class="col one left" src="{{ site.baseurl }}/images/about/csad.jpg" alt="" title="projection"/>
 </div>
 <div class="caption_row">
     <div class="col three left caption">Analogue immersive environment, 1987</div>
 </div>
+
+<div class="img_row">
+	<div class="no-pad-col one left date-square">
+	    <span class="date">1988</span>
+	</div>
+</div>
+It's a new year and I am working at the Fridge nightclub in Brixton creating visuals for the banks of video screens that surround the dancefloor and film loops for projection around the venue. As the second "Summer of Love" gets underway our visuals are in demand on the rave circuit. I spend the season travelling the length and breadth of the country projecting immersive environments for all the big raves including the infamous "Ecstasy Airport" Sunrise event at White Waltham airfield that makes the front page of The Sun.
+<div class="img_row">
+	<img class="col one left" src="{{ site.baseurl }}/images/about/spaced-out.jpg" alt="" title="spaced-out"/>
+</div>
+
+<div class="img_row">
+	<img class="col one left" src="{{ site.baseurl }}/images/about/rave1.jpg" alt="" title="rave1"/>
+	<img class="col one left" src="{{ site.baseurl }}/images/about/rave2.jpg" alt="" title="rave2"/>
+</div>
+
 
 <div class="img_row">
 	<div class="no-pad-col one left date-square">
