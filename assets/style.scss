@@ -229,8 +229,16 @@ $caption_color: #aaa;
   }
 
   a {
-    color: $red-dark;
+    color: $color-text-accent;
   }
+
+  blockquote{
+    border-left: 8px solid $color-code;
+  }
+}
+
+pre {
+  border-left: 8px solid $color-code;
 }
 
 .vimeo-player-container{
@@ -251,7 +259,10 @@ $caption_color: #aaa;
 .box{
   flex: 1 1 auto;
   align-items: center;
-  overflow-x: hidden;
+  height: 100vh;
+  overflow-y: auto;
+  margin-top: 50px;
+  height: calc(100vh - 50px);
 }
 
 html {
@@ -271,8 +282,7 @@ body {
 }
 
 article{
-  margin-top: 80px;
-  height: calc(100vh - 80px);
+  padding-top: 30px;
 }
 
 .date-square{

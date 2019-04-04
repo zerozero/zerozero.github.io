@@ -3,7 +3,7 @@ id: 272
 title: LIS3LV02DQ TRIPLE AXIS ACCELEROMETER + ARDUINO + TINKERPROXY + FLASH
 date: 2012-02-17T20:42:36+00:00
 author: zerozero
-layout: post
+layout: page
 categories:
   - code
 video: 171226321
@@ -12,10 +12,12 @@ disqus: yes
 This week I have been playing with the [LIS3LV02DQ TRIPLE AXIS ACCELEROMETER](http://www.sparkfun.com/products/758) (now retired) and attempting to get it spitting data into flash.
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/images/uploads/IMG_1712_c.jpg" alt="" title="accelerometer"/>
+    <a href="{{ site.baseurl }}/images/uploads/IMG_1712_c.jpg">
+        <img class="col one left" src="{{ site.baseurl }}/images/uploads/IMG_1712_c.jpg" alt="" title="accelerometer"/>
+	</a>
 </div>
-<div class="col three caption">
-	Accelerometer and Protoshield
+<div class="caption_row">
+    <div class="col one left caption">Accelerometer and Protoshield</div>
 </div>
 <br/>
 
@@ -37,16 +39,19 @@ Here's a quick run down of how to set up the system:
 
 <div class="img_row">
 	<a href="/images/uploads/acc_ard_fla_bb.jpg">
-	<img class="col two left" src="{{ site.baseurl }}/images/uploads/acc_ard_fla_bb.jpg" alt="" title="Triple Axis Accelerometer Fritzing Layout"/>
-	</a>
-	<a href="/images/uploads/acc_ard_fla_schem.jpg">
-	<img class="col one right" src="{{ site.baseurl }}/images/uploads/acc_ard_fla_schem.jpg" alt="" title="Accelerometer Fritzing Schematic"/>
+	<img class="col one left" src="{{ site.baseurl }}/images/uploads/acc_ard_fla_bb.jpg" alt="" title="Triple Axis Accelerometer Fritzing Layout"/>
 	</a>
 </div>
-<div class="col two left caption">
+<div class="col one left caption">
 	Triple Axis Accelerometer Fritzing Layout
 </div>
-<div class="col one right caption">
+
+<div class="img_row">
+<a href="/images/uploads/acc_ard_fla_schem.jpg">
+	<img class="col one left" src="{{ site.baseurl }}/images/uploads/acc_ard_fla_schem.jpg" alt="" title="Accelerometer Fritzing Schematic"/>
+	</a>
+</div>
+<div class="col one left caption">
 	Accelerometer Fritzing Schematic
 </div>
 <br/>

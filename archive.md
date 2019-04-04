@@ -6,4 +6,9 @@ permalink: /archive/
 order: 4
 ---
 
-<h1>This is the featured projects page...</h1>
+<ul class="post-list">
+    {% assign archive = site.archive | reverse %}
+	{% for post in archive %}
+	{% include post_block.html %}
+	{% endfor %}
+</ul>

@@ -3,7 +3,7 @@ id: 269
 title: Pure Oxygen code generator for PureMVC
 date: 2012-01-28T19:02:21+00:00
 author: zerozero
-layout: post
+layout: page
 categories:
   - code
 disqus: no

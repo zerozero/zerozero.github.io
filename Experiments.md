@@ -6,4 +6,8 @@ permalink: /devlog/
 order: 3
 ---
 
-<h1>This is the experiments page...</h1>
+<ul class="post-list">
+	{% for post in site.devlog %}
+	{% include post_block.html %}
+	{% endfor %}
+</ul>

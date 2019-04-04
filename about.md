@@ -11,7 +11,7 @@ order: 1
 </div>
 
 
-<span class="aktiv-bold">I am a freelance Creative Technologist, Artist, Inventor.</span>
+<span class="aktiv-bold">I am a Developer and Technical Consultant, Artist, Inventor.</span>
 
 A graduate of Central St. Martins School of Art my 25+ year career consists of a hugely diverse variety of work ranging from channel idents for MTV (1990); projected visuals for the Clash at The Fridge in Brixton; exhibiting at the Institute of Contemporary Art; to an Augmented Reality app for Marina Abramović & The Nobel Prize Committee (2018).
 

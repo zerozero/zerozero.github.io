@@ -3,26 +3,50 @@
   <component name="ChangeListManager">
     <list default="true" id="c2f06053-67df-4186-b5cd-38a28b8cbc40" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2012-01-28-pure-oxygen-code-generator-for-puremvc.md" afterPath="$PROJECT_DIR$/_posts/devlog/2012-01-28-pure-oxygen-code-generator-for-puremvc.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2012-02-17-lis3lv02dq-triple-axis-accelerometer-arduino-tinkerproxy-flash.md" afterPath="$PROJECT_DIR$/_posts/devlog/2012-02-17-lis3lv02dq-triple-axis-accelerometer-arduino-tinkerproxy-flash.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2012-02-17-untyped-array-a-taxonomy-of-empty-things.md" afterPath="$PROJECT_DIR$/_posts/devlog/2012-02-17-untyped-array-a-taxonomy-of-empty-things.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2012-03-20-flash-builder-4-6-away3d-air-3-2-ios.md" afterPath="$PROJECT_DIR$/_posts/devlog/2012-03-20-flash-builder-4-6-away3d-air-3-2-ios.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2012-08-19-blender-3d-carnegie-mellon-bvh-motion-capture-remapping.md" afterPath="$PROJECT_DIR$/_posts/devlog/2012-08-19-blender-3d-carnegie-mellon-bvh-motion-capture-remapping.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2012-12-08-brnk.md" afterPath="$PROJECT_DIR$/_posts/devlog/2012-12-08-brnk.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2013-05-02-running-locomotive-js-with-nodemon.md" afterPath="$PROJECT_DIR$/_posts/devlog/2013-05-02-running-locomotive-js-with-nodemon.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2013-08-03-leap-motion-controller-leapmotionas3-away3d.md" afterPath="$PROJECT_DIR$/_posts/devlog/2013-08-03-leap-motion-controller-leapmotionas3-away3d.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2013-08-19-timelapse-experiments.md" afterPath="$PROJECT_DIR$/_posts/devlog/2013-08-19-timelapse-experiments.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2013-08-21-processing-leap-motion-controller-minim.md" afterPath="$PROJECT_DIR$/_posts/devlog/2013-08-21-processing-leap-motion-controller-minim.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2015-04-02-meadowlark.md" afterPath="$PROJECT_DIR$/_posts/devlog/2015-04-02-meadowlark.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2016-05-16-machime-learning.md" afterPath="$PROJECT_DIR$/_posts/devlog/2016-05-16-machime-learning.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2016-06-28-meadowlark-part-2.md" afterPath="$PROJECT_DIR$/_posts/devlog/2016-06-28-meadowlark-part-2.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2016-08-12-unity-llapi1.md" afterPath="$PROJECT_DIR$/_posts/devlog/2016-08-12-unity-llapi1.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2016-09-24-unity-llapi2.md" afterPath="$PROJECT_DIR$/_posts/devlog/2016-09-24-unity-llapi2.md" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2016-09-28-unity-shaderlab-reference.md" afterPath="$PROJECT_DIR$/_posts/devlog/2016-09-28-unity-shaderlab-reference.md" />
+      <change beforePath="$PROJECT_DIR$/Experiments.md" afterPath="$PROJECT_DIR$/Experiments.md" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-02-22-welcome-to-jekyll.markdown" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2012-01-28-pure-oxygen-code-generator-for-puremvc.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2012-02-17-lis3lv02dq-triple-axis-accelerometer-arduino-tinkerproxy-flash.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2012-02-17-untyped-array-a-taxonomy-of-empty-things.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2012-03-20-flash-builder-4-6-away3d-air-3-2-ios.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2012-08-19-blender-3d-carnegie-mellon-bvh-motion-capture-remapping.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2012-12-08-brnk.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2013-05-02-running-locomotive-js-with-nodemon.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2013-08-03-leap-motion-controller-leapmotionas3-away3d.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2013-08-19-timelapse-experiments.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2013-08-21-processing-leap-motion-controller-minim.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2015-04-02-meadowlark.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2016-05-16-machime-learning.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2016-06-28-meadowlark-part-2.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2016-08-12-unity-llapi1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2016-09-24-unity-llapi2.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/devlog/2016-09-28-unity-shaderlab-reference.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/acer-olympics/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/belly-dont-know/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/boston-scientific-360/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/coolroom/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/dada-game/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/darzalex/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/degree-show/central-st-martins-degree-show-1987.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/diy-makerbot/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/fortunity/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/lbs-hurdles/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/mtv-party-zone/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/netplay-tv/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/port-of-london/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/pottermore/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/repwrite/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/science-museum-collider/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/science-museum-tell/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/sudoku-countdown/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/the-public/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/tokyo-trains/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/work/tolv-netter/index.md" afterPath="" />
       <change beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/about.md" />
+      <change beforePath="$PROJECT_DIR$/archive.md" afterPath="$PROJECT_DIR$/archive.md" />
       <change beforePath="$PROJECT_DIR$/assets/style.scss" afterPath="$PROJECT_DIR$/assets/style.scss" />
-      <change beforePath="$PROJECT_DIR$/collections/_projects/boston-scientific-360/index.md" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,12 +60,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/collections/_projects/att-firstnet/index.md">
+      <file leaf-file-name="2012-01-28-pure-oxygen-code-generator-for-puremvc.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/_devlog/2012-01-28-pure-oxygen-code-generator-for-puremvc.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1134">
-                <caret line="128" column="41" lean-forward="false" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="41" />
+              <first_editor relative-caret-position="125">
+                <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2012-02-17-lis3lv02dq-triple-axis-accelerometer-arduino-tinkerproxy-flash.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/_devlog/2012-02-17-lis3lv02dq-triple-axis-accelerometer-arduino-tinkerproxy-flash.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-3366">
+                <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -50,11 +87,87 @@
         </entry>
       </file>
       <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collections/_projects/coolroom/index.md">
+        <entry file="file://$PROJECT_DIR$/collections/_projects/att-firstnet/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="509">
+                <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="118" selection-end-column="6" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="240" column="36" lean-forward="false" selection-start-line="240" selection-start-column="36" selection-end-line="240" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_theme-white.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/_theme-white.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="325">
+                <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="previous-next.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/previous-next.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/_archive/tolv-netter/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="453">
-                <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="45" />
+              <first_editor relative-caret-position="25">
+                <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="15" selection-end-column="15" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -81,7 +194,6 @@
       <find>prepend</find>
       <find>baseurl</find>
       <find>mb-2</find>
-      <find>.prose</find>
       <find>83.3333333333</find>
       <find>nav</find>
       <find>image-gallery</find>
@@ -96,6 +208,10 @@
       <find>$breakpoint-lg</find>
       <find>@media</find>
       <find>video1</find>
+      <find>post-meta</find>
+      <find>Renders post date, title, and snippet of text</find>
+      <find>.prose</find>
+      <find>$red-dark</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,11 +227,8 @@
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/Experiments.md" />
-        <option value="$PROJECT_DIR$/archive.md" />
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_site/assets/style.css" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/collections/_projects/acer-olympics/index.md" />
         <option value="$PROJECT_DIR$/_sass/_theme-white.scss" />
@@ -131,10 +244,17 @@
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/collections/_projects/the-icarus-project/index.md" />
         <option value="$PROJECT_DIR$/_includes/navbar.html" />
-        <option value="$PROJECT_DIR$/assets/style.scss" />
-        <option value="$PROJECT_DIR$/_layouts/page.html" />
-        <option value="$PROJECT_DIR$/about.md" />
         <option value="$PROJECT_DIR$/collections/_projects/att-firstnet/index.md" />
+        <option value="$PROJECT_DIR$/archive.md" />
+        <option value="$PROJECT_DIR$/_includes/post_block.html" />
+        <option value="$PROJECT_DIR$/about.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/Experiments.md" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/collections/_devlog/2012-01-28-pure-oxygen-code-generator-for-puremvc.md" />
+        <option value="$PROJECT_DIR$/collections/_devlog/2012-02-17-lis3lv02dq-triple-axis-accelerometer-arduino-tinkerproxy-flash.md" />
+        <option value="$PROJECT_DIR$/_layouts/page.html" />
+        <option value="$PROJECT_DIR$/assets/style.scss" />
       </list>
     </option>
   </component>
@@ -146,7 +266,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
-    <option name="width" value="1984" />
+    <option name="width" value="1975" />
     <option name="height" value="1562" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -184,20 +304,22 @@
             <path>
               <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="boston-scientific-360" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -213,6 +335,32 @@
               <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="_archive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="_archive" type="462c0819:PsiDirectoryNode" />
+              <item name="acer-olympics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="_archive" type="462c0819:PsiDirectoryNode" />
+              <item name="tolv-netter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="_devlog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
               <item name="_projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -221,31 +369,6 @@
               <item name="collections" type="462c0819:PsiDirectoryNode" />
               <item name="_projects" type="462c0819:PsiDirectoryNode" />
               <item name="att-firstnet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="_projects" type="462c0819:PsiDirectoryNode" />
-              <item name="coolroom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="_projects" type="462c0819:PsiDirectoryNode" />
-              <item name="the-icarus-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="attfirstnet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,19 +385,19 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Projects\jonrowe.com\blog\zerozero2.github.io\zerozero2\_sass" />
-      <recent name="G:\Projects\jonrowe.com\blog\zerozero2.github.io\zerozero2\_includes" />
-      <recent name="G:\Projects\jonrowe.com\blog\zerozero2.github.io\zerozero2\js" />
-      <recent name="G:\Projects\jonrowe.com\blog\zerozero2.github.io\zerozero2\assets" />
-      <recent name="G:\Projects\jonrowe.com\blog\zerozero2.github.io\zerozero2\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Projects\jonrowe.com\blog\zerozero.github.io\collections" />
       <recent name="G:\Projects\jonrowe.com\blog\zerozero.github.io\collections\_projects\att-firstnet" />
       <recent name="G:\Projects\jonrowe.com\blog\zerozero.github.io\_drafts" />
       <recent name="G:\Projects\jonrowe.com\blog\zerozero.github.io\_posts\devlog" />
       <recent name="G:\Projects\jonrowe.com\blog\zerozero.github.io\images" />
-      <recent name="G:\Projects\jonrowe.com\blog\zerozero.github.io\collections\_projects\the-icarus-project" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Projects\jonrowe.com\blog\zerozero.github.io\_includes" />
+      <recent name="G:\Projects\jonrowe.com\blog\zerozero.github.io\_layouts" />
+      <recent name="G:\Projects\jonrowe.com\blog\zerozero2.github.io\zerozero2\_sass" />
+      <recent name="G:\Projects\jonrowe.com\blog\zerozero2.github.io\zerozero2\_includes" />
+      <recent name="G:\Projects\jonrowe.com\blog\zerozero2.github.io\zerozero2\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,28 +427,29 @@
       <updated>1550848860560</updated>
       <workItem from="1550848861852" duration="15506000" />
       <workItem from="1551442560841" duration="27787000" />
-      <workItem from="1552045560145" duration="71353000" />
+      <workItem from="1552045560145" duration="74961000" />
+      <workItem from="1554307146737" duration="6220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117746000" />
+    <option name="totallyTimeSpent" value="127574000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1984" height="1562" extended-state="0" />
+    <frame x="-10" y="0" width="1975" height="1562" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26517904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26642334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -345,148 +469,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/square/mtv-party-zone.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/square/netplay-tv.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/square/port-of-london.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/square/pottermore.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/square/science-museum-collider.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/square/repwrite.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/_projects/darzalex/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="550">
-            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="24" selection-end-column="6" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/_projects/boston-scientific-360/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/_archive/port-of-london/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="500">
-            <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="22" selection-end-column="6" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ford.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/hmd.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/slider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="11" column="32" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="32" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/vimeoplayer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/gallery-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/image-mosaic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-            <folding>
-              <marker date="1552845359296" expanded="true" signature="4:17" ph="layout: page&#10;permalink...jects" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/image-gallery-projects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,7 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="7" column="400" lean-forward="false" selection-start-line="7" selection-start-column="400" selection-end-line="7" selection-end-column="400" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -502,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,40 +517,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_theme-white.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/projects/the-icarus-project/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1554300122694" expanded="true" signature="15220:15228" ph="›" />
-            <marker date="1554300122694" expanded="true" signature="15245:15253" ph="‹" />
-            <marker date="1554300122694" expanded="true" signature="15636:15644" ph="›" />
-            <marker date="1554300122694" expanded="true" signature="15661:15669" ph="‹" />
-            <marker date="1554300122694" expanded="true" signature="15697:15773" ph="..." />
-            <marker date="1554300122694" expanded="true" signature="16135:16143" ph="›" />
-            <marker date="1554300122694" expanded="true" signature="16160:16168" ph="‹" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/about/1987.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/about/1987.jpg" />
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -575,15 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
           <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="219" column="1" lean-forward="false" selection-start-line="219" selection-start-column="1" selection-end-line="219" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,28 +547,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/images/about/rave1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1375">
-            <caret line="64" column="97" lean-forward="false" selection-start-line="64" selection-start-column="97" selection-end-line="64" selection-end-column="97" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-22-welcome-to-jekyll.markdown">
@@ -624,23 +557,12 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/devlog/2012-01-28-pure-oxygen-code-generator-for-puremvc.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/devlog/2012-01-28-pure-oxygen-code-generator-for-puremvc.md" />
     <entry file="file://$PROJECT_DIR$/images/square/darzalex.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -661,17 +583,12 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="475">
             <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="48" selection-end-column="6" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/attfirstnet/ControlRoom.background.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/attfirstnet/ControlRoom.background.png" />
     <entry file="file://$PROJECT_DIR$/images/attfirstnet/IMG_1336.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -707,6 +624,144 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="453">
             <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="275">
+            <caret line="11" column="32" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/post_block.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/_devlog/2016-09-24-unity-llapi2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/unityplayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/_devlog/2016-09-28-unity-shaderlab-reference.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="200">
+            <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiments.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="200">
+            <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="13" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/_archive/acer-olympics/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/_archive/tolv-netter/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="25">
+            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="15" selection-end-column="15" />
             <folding />
           </first_editor>
           <second_editor />
@@ -716,11 +771,84 @@
     <entry file="file://$PROJECT_DIR$/collections/_projects/att-firstnet/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1134">
-            <caret line="128" column="41" lean-forward="false" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="41" />
+          <first_editor relative-caret-position="509">
+            <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="118" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/_devlog/2012-01-28-pure-oxygen-code-generator-for-puremvc.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/_devlog/2012-02-17-lis3lv02dq-triple-axis-accelerometer-arduino-tinkerproxy-flash.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-3366">
+            <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/previous-next.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="325">
+            <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_theme-white.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="240" column="36" lean-forward="false" selection-start-line="240" selection-start-column="36" selection-end-line="240" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
