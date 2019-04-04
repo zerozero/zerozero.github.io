@@ -314,3 +314,14 @@ article{
   text-align: center;
   font-size: 420%;
 }
+
+//.prev-next{
+//  display: flex;
+//}
+.text-right{
+  text-align: right;
+}
+
+@media (max-width: 52em) { .text-right{
+  text-align: left;
+} }

@@ -7,7 +7,8 @@ order: 3
 ---
 
 <ul class="post-list">
-	{% for post in site.devlog %}
+    {% assign devlog = site.devlog | reverse %}
+	{% for post in devlog %}
 	{% include post_block.html %}
 	{% endfor %}
 </ul>

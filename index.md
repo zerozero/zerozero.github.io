@@ -9,11 +9,11 @@ slider:
     shadow_color: black
     slides:
         - image: /images/hmd.jpg
-        - image: /images/ATT.jpg
-        - image: /images/coolroom.jpg
-        - image: /images/darzalex.jpg
-        - image: /images/ford.jpg
-        - image: /images/ATT2.jpg
-        - image: /images/holobridge.jpg
-        - image: /images/enginebots.jpg
+#        - image: /images/ATT.jpg
+#        - image: /images/coolroom.jpg
+#        - image: /images/darzalex.jpg
+#        - image: /images/ford.jpg
+#        - image: /images/ATT2.jpg
+#        - image: /images/holobridge.jpg
+#        - image: /images/enginebots.jpg
 ---
