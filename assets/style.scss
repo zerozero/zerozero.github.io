@@ -1,0 +1,327 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` and set theme here
+@import
+        "bootstrap",
+        "theme-{{ site.theme_color | default: "black" }}.scss"
+
+;
+
+.aktiv-regular{
+  font-family: aktiv-grotesk,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aktiv-italic{
+  font-family: aktiv-grotesk,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.aktiv-bold{
+  font-family: aktiv-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.aktiv-thin{
+  font-family: aktiv-grotesk-thin,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.aktiv-thin-italic{
+  font-family: aktiv-grotesk-thin,sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.header-text{
+  font-family: aktiv-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+  font-family: aktiv-grotesk,sans-serif;
+}
+
+.main-feature {
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        right: 0px;
+        background: white;
+        color: white;
+        padding: 0px;
+        transform: translateY(-50%);
+        resize: vertical;
+        overflow: auto;
+        max-width: 980px;
+        margin: 0 auto;
+        z-index: -100;
+}
+
+.white-header-background { background-color: #ffffff; }
+
+.navbar-brand-subtitle {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+
+.navbar-default .navbar-brand {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+
+.header-link:hover {
+        color: #a8a8a8 !important;
+}
+
+.link-primary {
+  font-weight: normal;
+  text-decoration: none !important;
+}
+
+.border-top-thin{
+  border-top:1px solid lightgray;
+}
+
+.border-bottom-thick{
+  border-bottom: 1px solid lightgray;
+}
+
+
+@media screen and (max-width: 767px){
+  .navbar-brand-subtitle {
+    font-size: 14px;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 16px;
+  }
+
+}
+
+.py-0-4 { padding-top: 0px; padding-bottom: 32px; }
+.ml-0-1 { margin-left: -2px !important; }
+.mt-0-1 { margin-top: -2px !important; }
+.h0 { font-size: 32px }
+@media (min-width: 52em){
+  .py-0-4 { padding-top: 0px; padding-bottom: 64px; }
+  .ml-0-1 { margin-left: -3px !important; }
+  .mt-0-1 { margin-top: -5px !important; }
+  .h0 { font-size: 64px }
+  .px-4 { padding-left: 128px; padding-right: 128px; }
+}
+
+.current-page{
+  color: #cd000e !important;
+}
+
+.prose blockquote p {
+  font-size: 16px;
+}
+
+/**
+ * Portfolio pages **********************************************************
+*/
+/* Set theme color *************************/
+$theme-color:   $color-text-accent;
+
+/* portfolio tinkering */
+$img_spacing: 10px;
+$img_height: 325px;
+$caption_height: 50px;
+$img_height_tall: 750px;
+$caption_font_size: 12px;
+$caption_color: #aaa;
+
+.blankbox{
+  background: $theme-color;
+}
+.img_row{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  box-sizing:border-box;
+  padding: $img_spacing $img_spacing $img_spacing 0px;
+}
+.img_row_tall{
+  height: $img_height_tall;
+  width: 100%;
+  overflow: hidden;
+  box-sizing:border-box;
+  padding: $img_spacing $img_spacing $img_spacing 0px;
+}
+.col{
+  width: 100%;
+  height: auto;
+  float: left;
+  object-fit: cover;
+  box-sizing:border-box;
+  padding: $img_spacing 0px;
+}
+.right{
+  float: right;
+}
+.one {
+  width:33.33%;
+}
+.two {
+  width: 66.66%;
+}
+.three{
+  width: 100%;
+}
+
+@media screen and (max-width: 767px){
+
+  .one {
+    width:50%;
+  }
+  .two {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px){
+
+  .one {
+    width:100%;
+  }
+  .two {
+    width: 100%;
+  }
+}
+.caption{
+  height: 100%;
+  color: $caption_color;
+  text-align: center;
+  vertical-align: middle;
+  font-size: $caption_font_size;
+}
+
+.caption_row{
+  height: $caption_height;
+  width: 100%;
+  overflow: hidden;
+  box-sizing:border-box;
+  padding: 0 $img_spacing;
+}
+
+.prose {
+
+  p, ol, ul {
+    font-size: 16px;
+    @media (min-width: $breakpoint-lg) {
+      width: 100% !important;
+    }
+  }
+
+  a {
+    color: $color-text-accent;
+  }
+
+  blockquote{
+    border-left: 8px solid $color-code;
+  }
+}
+
+pre {
+  border-left: 8px solid $color-code;
+}
+
+.vimeo-player-container{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.vimeo-player{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box{
+  flex: 1 1 auto;
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+  margin-top: 50px;
+  height: calc(100vh - 50px);
+}
+
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.title-color{
+  background-color: $theme-color;
+  color: $white;
+  padding: 1px 7px;
+}
+
+article{
+  padding-top: 30px;
+}
+
+.date-square{
+  background-color: $theme-color;
+  display: flex;
+  margin: auto;
+  /*width: 100%;*/
+}
+
+.date-square:after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.no-pad-col{
+  /*height: auto;*/
+  float: left;
+  object-fit: cover;
+  box-sizing: border-box;
+  padding: 0px;
+
+}
+
+.date{
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  margin: auto;
+  text-align: center;
+  font-size: 420%;
+}
+
+//.prev-next{
+//  display: flex;
+//}
+.text-right{
+  text-align: right;
+}
+
+@media (max-width: 52em) { .text-right{
+  text-align: left;
+} }

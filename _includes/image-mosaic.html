@@ -1,0 +1,33 @@
+<style>
+    .image-mosaic {
+        overflow: hidden;
+        margin-left: -1%!important;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 120px;
+    }
+    .image-mosaic a {
+        margin: 0 0 1% 1%;
+        flex: 1 0 41%;
+    }
+    .image-mosaic a img {
+        width: 100%;
+        display: block;
+    }
+
+    @media screen and (max-width: 767px){
+        .image-mosaic {
+            padding: 0;
+        }
+    }
+</style>
+
+<p class="image-mosaic">
+    {% for image in page.mosaic.images %}
+
+        <a href="{{ image.url }}">
+            <img src="{{ image.url | prepend: baseurl }}" alt="{{ filename }}" />
+        </a>
+    {% endfor %}
+</p>

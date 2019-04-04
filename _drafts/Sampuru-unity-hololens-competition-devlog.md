@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sampuru - Unity/Hololens competition devlog
+date: 2016-03-01T16:44:29+00:00
 category: Code
 ---
 <div class="img_row">

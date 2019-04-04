@@ -2,6 +2,7 @@
 layout: post
 title: The case for DI in VR
 category: Code
+date: 2016-03-01T16:44:29+00:00
 ---
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/images/IMG_0856.jpg" alt="" title="Sequence Diagram"/>
