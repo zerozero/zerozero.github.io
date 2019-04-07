@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f06053-67df-4186-b5cd-38a28b8cbc40" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/image-gallery.html" afterPath="$PROJECT_DIR$/_includes/image-gallery.html" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,11 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image-gallery.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="image-gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/image-gallery.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
               <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -91,16 +101,6 @@
         <entry file="file://$PROJECT_DIR$/_site/images/icarus/IMG_1114.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -179,7 +179,6 @@
         <option value="$PROJECT_DIR$/archive.md" />
         <option value="$PROJECT_DIR$/_includes/post_block.html" />
         <option value="$PROJECT_DIR$/about.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/collections/_devlog/2012-01-28-pure-oxygen-code-generator-for-puremvc.md" />
         <option value="$PROJECT_DIR$/collections/_devlog/2012-02-17-lis3lv02dq-triple-axis-accelerometer-arduino-tinkerproxy-flash.md" />
         <option value="$PROJECT_DIR$/Experiments.md" />
@@ -189,6 +188,7 @@
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/assets/style.scss" />
         <option value="$PROJECT_DIR$/_includes/image-gallery.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -312,12 +312,12 @@
       <workItem from="1551442560841" duration="27787000" />
       <workItem from="1552045560145" duration="74961000" />
       <workItem from="1554307146737" duration="9224000" />
-      <workItem from="1554394841781" duration="3060000" />
+      <workItem from="1554394841781" duration="3510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133638000" />
+    <option name="totallyTimeSpent" value="134088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1975" height="1562" extended-state="0" />
@@ -389,7 +389,6 @@
     <entry file="file://$PROJECT_DIR$/collections/_devlog/2016-09-24-unity-llapi2.md" />
     <entry file="file://$PROJECT_DIR$/_includes/unityplayer.html" />
     <entry file="file://$PROJECT_DIR$/collections/_devlog/2016-09-28-unity-shaderlab-reference.md" />
-    <entry file="file://$PROJECT_DIR$/_config.yml" />
     <entry file="file://$PROJECT_DIR$/collections/_archive/acer-olympics/index.md" />
     <entry file="file://$PROJECT_DIR$/collections/_archive/tolv-netter/index.md" />
     <entry file="file://$PROJECT_DIR$/collections/_projects/att-firstnet/index.md" />
@@ -481,6 +480,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
         </state>
       </provider>
