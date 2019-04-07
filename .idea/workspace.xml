@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f06053-67df-4186-b5cd-38a28b8cbc40" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/style.scss" afterPath="$PROJECT_DIR$/assets/style.scss" />
+      <change beforePath="$PROJECT_DIR$/_includes/image-gallery.html" afterPath="$PROJECT_DIR$/_includes/image-gallery.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +26,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+            <state relative-caret-position="911">
+              <caret line="123" column="54" lean-forward="false" selection-start-line="123" selection-start-column="54" selection-end-line="123" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/_projects/the-icarus-project/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-991">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image-gallery.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/image-gallery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -76,16 +99,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -159,7 +172,6 @@
         <option value="$PROJECT_DIR$/_layouts/gallery-page.html" />
         <option value="$PROJECT_DIR$/projects.md" />
         <option value="$PROJECT_DIR$/_includes/image-gallery-projects.html" />
-        <option value="$PROJECT_DIR$/_includes/image-gallery.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/collections/_projects/the-icarus-project/index.md" />
         <option value="$PROJECT_DIR$/_includes/navbar.html" />
@@ -176,6 +188,7 @@
         <option value="$PROJECT_DIR$/_includes/previous-next.html" />
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/assets/style.scss" />
+        <option value="$PROJECT_DIR$/_includes/image-gallery.html" />
       </list>
     </option>
   </component>
@@ -220,41 +233,25 @@
             <path>
               <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="_projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="icarus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="_projects" type="462c0819:PsiDirectoryNode" />
+              <item name="the-icarus-project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,12 +312,12 @@
       <workItem from="1551442560841" duration="27787000" />
       <workItem from="1552045560145" duration="74961000" />
       <workItem from="1554307146737" duration="9224000" />
-      <workItem from="1554394841781" duration="2065000" />
+      <workItem from="1554394841781" duration="3060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132643000" />
+    <option name="totallyTimeSpent" value="133638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1975" height="1562" extended-state="0" />
@@ -356,7 +353,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/about/BOLEX-PAILLARD.jpg" />
     <entry file="file://$PROJECT_DIR$/_site/projects/the-icarus-project/index.html" />
     <entry file="file://$PROJECT_DIR$/images/about/1987.jpg" />
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
@@ -379,7 +375,6 @@
     <entry file="file://$PROJECT_DIR$/images/square/darzalex.jpg" />
     <entry file="file://$PROJECT_DIR$/images/heroes/firstnet.PNG" />
     <entry file="file://$PROJECT_DIR$/images/heroes/firstnet.jpg" />
-    <entry file="file://$PROJECT_DIR$/collections/_projects/the-icarus-project/index.md" />
     <entry file="file://$PROJECT_DIR$/images/attfirstnet/ControlRoom.background.png" />
     <entry file="file://$PROJECT_DIR$/images/attfirstnet/IMG_1336.JPG" />
     <entry file="file://$PROJECT_DIR$/images/attfirstnet/IMG_1335.JPG" />
@@ -465,8 +460,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+        <state relative-caret-position="911">
+          <caret line="123" column="54" lean-forward="false" selection-start-line="123" selection-start-column="54" selection-end-line="123" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/_projects/the-icarus-project/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-991">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/image-gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
