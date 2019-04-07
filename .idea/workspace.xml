@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2f06053-67df-4186-b5cd-38a28b8cbc40" name="Default" comment="" />
+    <list default="true" id="c2f06053-67df-4186-b5cd-38a28b8cbc40" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/style.scss" afterPath="$PROJECT_DIR$/assets/style.scss" />
+      <change beforePath="$PROJECT_DIR$/images/icarus/we.jpg" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,13 +17,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="263" column="35" lean-forward="false" selection-start-line="263" selection-start-column="35" selection-end-line="263" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMG_1114.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/icarus/IMG_1114.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMG_1116.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/icarus/IMG_1116.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMG_1117.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/icarus/IMG_1117.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMG_1119.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/icarus/IMG_1119.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMG_1114.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_site/images/icarus/IMG_1114.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -124,8 +172,8 @@
         <option value="$PROJECT_DIR$/_layouts/page.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_includes/previous-next.html" />
-        <option value="$PROJECT_DIR$/assets/style.scss" />
         <option value="$PROJECT_DIR$/index.md" />
+        <option value="$PROJECT_DIR$/assets/style.scss" />
       </list>
     </option>
   </component>
@@ -171,6 +219,40 @@
               <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zerozero.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zerozero.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,17 +313,17 @@
       <workItem from="1551442560841" duration="27787000" />
       <workItem from="1552045560145" duration="74961000" />
       <workItem from="1554307146737" duration="9224000" />
-      <workItem from="1554394841781" duration="7000" />
+      <workItem from="1554394841781" duration="889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130585000" />
+    <option name="totallyTimeSpent" value="131467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1975" height="1562" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26590198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26590198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -271,12 +353,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/image-gallery.html" />
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html" />
-    <entry file="file://$PROJECT_DIR$/images/hmd-plan.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/icarus/IMG_1114.jpg" />
-    <entry file="file://$PROJECT_DIR$/_includes/navbar.html" />
-    <entry file="file://$PROJECT_DIR$/images/about/csad.jpg" />
     <entry file="file://$PROJECT_DIR$/images/about/BOLEX-PAILLARD.jpg" />
     <entry file="file://$PROJECT_DIR$/_site/projects/the-icarus-project/index.html" />
     <entry file="file://$PROJECT_DIR$/images/about/1987.jpg" />
@@ -344,7 +420,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/previous-next.html" />
     <entry file="file://$PROJECT_DIR$/_site/assets/style.css" />
-    <entry file="file://$PROJECT_DIR$/assets/style.scss" />
     <entry file="file://$PROJECT_DIR$/index.md" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -355,5 +430,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.md" />
+    <entry file="file://$PROJECT_DIR$/assets/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="263" column="35" lean-forward="false" selection-start-line="263" selection-start-column="35" selection-end-line="263" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icarus/we.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icarus/IMG_1114.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icarus/IMG_1116.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icarus/IMG_1117.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icarus/IMG_1119.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/images/icarus/IMG_1114.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
   </component>
 </project>
