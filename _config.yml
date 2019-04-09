@@ -53,3 +53,10 @@ collections:
   devlog:
     output: true
 collections_dir: collections
+
+#facebook_url:
+#twitter_url:
+linkedin_url: http://www.linkedin.com/in/mrjonrowe
+#googleplus_url:
+#pinterest_url:
+#instagram_url:
