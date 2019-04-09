@@ -7,7 +7,7 @@ order: 4
 ---
 
 <ul class="post-list">
-    {% assign archive = site.archive | reverse %}
+    {% assign archive = site.posts %}
 	{% for post in archive %}
 	{% include post_block.html %}
 	{% endfor %}
