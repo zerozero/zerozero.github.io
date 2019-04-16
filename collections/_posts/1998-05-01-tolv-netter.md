@@ -21,7 +21,11 @@ video: 72633767
 </div>
 <br/>
 
-Back in 1998 I had the opportunity, along with my some-time-collaborator Georgina Evans, to take part in a pretty special show curated by Jana Winderen: Tolv Netter (Twelve Nights). It was to take place during the NattJazz festival in Bergen and, along with a number of other artists, we would produce sound-based work that would fill the voids between concert spaces at the United Sardine Factory.
+Back in 1998 I had the opportunity, along with my some-time-collaborator Georgina Evans, to take part in a very special show curated by Jana Winderen: Tolv Netter (Twelve Nights). It would take place during the NattJazz festival in Bergen, Norway. Together with a number of other artists, we would produce sound-based work to fill the voids between concert spaces at the United Sardine Factory.
+
+For our piece we hooked up a microphone to the computer and analysed the incoming audio using a fast fourier transform (FFT). This allowed us to compute the relative velocities of each frequency band in the incoming signal. A simple artificial intelligence implementation mapped the frequencies to one of a number of animations such that the higher the velocity the higher the frame number of the animation. This meant that by singing a very 'pure' tone with increasing loudness the singer would play the animation forwards and the inverse would play the animation backwards.  
+
+Naturally this is a difficult technique to master but great entertainment and appropriate at a jazz festival: the sounds produced were like an avant-garde jazz composition, an induced _scat_ elicited by the playfulness of the participants in response to the software.
 
 From the catalogue:
 

@@ -49,7 +49,7 @@ collections:
   projects:
     output: true
   archive:
-    output: true
+    output: false
   devlog:
     output: true
 collections_dir: collections
