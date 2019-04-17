@@ -48,8 +48,6 @@ sass:
 collections:
   projects:
     output: true
-  archive:
-    output: false
   devlog:
     output: true
 collections_dir: collections

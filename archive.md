@@ -3,7 +3,7 @@ layout: page
 title: Project Archive
 menu: Archive
 permalink: /archive/
-order: 4
+order: 3
 ---
 
 <ul class="post-list">

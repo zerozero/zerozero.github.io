@@ -3,7 +3,7 @@ layout: page
 title: Devlog
 menu: Devlog
 permalink: /devlog/
-order: 3
+order: 4
 ---
 
 <ul class="post-list">
