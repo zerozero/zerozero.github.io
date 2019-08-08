@@ -42,11 +42,20 @@
     }
 </style>
 
+<p class="image-gallery-projects">
 
+    {% for project in include.projects %}
+    {% assign filenameparts = project.path | split: "/" %}{% assign filename = filenameparts[1] %}
+    <a href="{{ project.url }}" title="{{ project.title }}"><img src="{{ project.image | prepend: include.folder }}.jpg"
+                                                                 alt="{{ project.image }}" title="{{ project.title }}"/></a>
+    {% endfor %}
+</p>
+
+<!--
 <p class="image-gallery-projects">
     {% for project in site.projects %}
     {% assign filenameparts = project.path | split: "/" %}{% assign filename = filenameparts[1] %}
     <a href="{{ project.url }}" title="{{ project.title }}"><img src="{{ filename | prepend: include.folder }}.jpg"
                                                                  alt="{{ filename }}" title="{{ project.title }}"/></a>
     {% endfor %}
-</p>
+</p>-->
