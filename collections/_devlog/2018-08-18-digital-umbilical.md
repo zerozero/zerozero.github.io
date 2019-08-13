@@ -2,6 +2,7 @@
 title: Dansathon - Digital Umbilical (part 1)
 date: 2018-09-08T09:05:00+00:00
 project: false
+layout: post
 categories:
   - code
   - projects
