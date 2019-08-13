@@ -3,6 +3,7 @@ title: Shell - Make The Future (Engine Bots)
 date: 2018-05-03T13:38:21+00:00
 author: zerozero
 layout: post
+description: Multi-player augmented reality using depth cameras
 categories:
   - code
 disqus: no
