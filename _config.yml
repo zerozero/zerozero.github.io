@@ -41,11 +41,14 @@ remote_theme: broccolini/swiss
 #   - vendor/ruby/
 repository: jonrowe/zerozero.github.io
 theme_color: white
+future: true
 
 sass:
   sass_dir: _sass
 
 collections:
+  artist:
+    output: true
   projects:
     output: true
   devlog:
