@@ -6,7 +6,8 @@
 // Import partials from `sass_dir` and set theme here
 @import
         "bootstrap",
-        "theme-{{ site.theme_color | default: "black" }}.scss"
+        "theme-{{ site.theme_color | default: "black" }}.scss",
+        "syntax"
 
 ;
 
@@ -124,8 +125,14 @@ body{
   .px-4 { padding-left: 128px; padding-right: 128px; }
 }
 
+
+
 .current-page{
   color: #cd000e !important;
+}
+
+.tight-header{
+  padding: 15px 12px !important;
 }
 
 .prose blockquote p {

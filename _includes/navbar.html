@@ -18,7 +18,7 @@
                 {% for my_page in sorted_pages %}
                 {% if my_page.title %}
                 <li>
-                    <a class="align-middle link-primary header-link mr-2 aktiv-regular {% if page.url == my_page.url %} current-page {% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menu }}</a>
+                    <a class="align-middle link-primary header-link mr-0 tight-header aktiv-regular {% if page.url == my_page.url %} current-page {% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menu }}</a>
                 </li>
                 {% endif %}
                 {% endfor %}

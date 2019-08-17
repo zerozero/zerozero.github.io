@@ -46,7 +46,7 @@
 <p class="image-gallery-projects">
     {% for project in site.projects %}
     {% assign filenameparts = project.path | split: "/" %}{% assign filename = filenameparts[1] %}
-    <a href="{{ project.url }}" title="{{ project.title }}"><img src="{{ filename | prepend: include.folder }}.jpg"
+    <a href="{{ project.filename }}" title="{{ project.title }}"><img src="{{ filename | prepend: include.folder }}.jpg"
                                                                  alt="{{ filename }}" title="{{ project.title }}"/></a>
     {% endfor %}
 </p>
