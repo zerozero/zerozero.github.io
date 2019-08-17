@@ -6,7 +6,8 @@
 // Import partials from `sass_dir` and set theme here
 @import
         "bootstrap",
-        "theme-{{ site.theme_color | default: "black" }}.scss"
+        "theme-{{ site.theme_color | default: "black" }}.scss",
+        "syntax"
 
 ;
 
