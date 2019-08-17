@@ -3,6 +3,7 @@ layout: post
 title: The case for DI in VR
 category: Code
 date: 2016-03-01T16:44:29+00:00
+description: How to organise code in Unity
 ---
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/images/IMG_0856.jpg" alt="" title="Sequence Diagram"/>
@@ -106,6 +107,12 @@ While there are a number of alternatives to the singleton pattern for this proje
 - still composable
 - Real vs Virtual worlds
 
+**__Update__**
+
+While I enjoyed StrangeIOC as an easy path into MVC in Unity having worked extensively with Robotlegs for Flash in the end I found it to be a rather heavyweight solution and a bit proscriptive. Recently I have favoured [Zenject](https://github.com/modesttree/Zenject) which is a much lighter-weight framework and doesn't insist on the MVC meta-pattern. It also has great documentation and is being actively developed. I have used it on a number of projects now and I really think for mid- to large- scale projects it is a great tool.
+
+I always wonder whether this type of framework has a place in games development - I hardly ever get involved in making games per se - it is never mentioned in any of the Unity docs or blog posts which makes me wonder what people are using as an alternative. I have seen some examples that use Scriptable Objects to achieve similar results enabling developers to access 'global' variables across a project without resorting to the singleton pattern. Maybe one day we'll have a best-practice guide to solving this problem.
+
 **References**
 - [Why not to use singleton pattern](http://gameprogrammingpatterns.com/singleton.html) 
 - [What is an Entity System?](http://www.richardlord.net/blog/what-is-an-entity-framework) 
@@ -113,9 +120,5 @@ While there are a number of alternatives to the singleton pattern for this proje
 - [Robotlegs](https://github.com/robotlegs/robotlegs-framework/blob/master/readme.md) 
 - [StrangeIoC](http://strangeioc.github.io/strangeioc/TheBigStrangeHowTo.html) 
 - [Game Programming Patterns](http://gameprogrammingpatterns.com/) 
-- ...
 
 
-
-![Stephen Hawking](https://zerozero.github.io/images/Stephen-Hawking-AI-248011%20copy.jpg)
-*Stephen Hawking thinking hard.*

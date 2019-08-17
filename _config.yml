@@ -61,3 +61,5 @@ linkedin_url: http://www.linkedin.com/in/mrjonrowe
 #googleplus_url:
 #pinterest_url:
 #instagram_url:
+
+permalink: /:title:output_ext

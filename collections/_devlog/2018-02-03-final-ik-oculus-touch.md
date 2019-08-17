@@ -3,6 +3,7 @@ title: Full body VR with Final IK + Oculus Touch (Part 1)
 date: 2018-02-03T13:38:21+00:00
 author: zerozero
 layout: post
+description: Creating custom hands in Blender for Oculus in Unity
 categories:
   - code
 disqus: no
@@ -109,24 +110,29 @@ I can see there are 13 poses I need to create for each hand. Using Rigify in Ble
 So I spend a few hours Posing the hands. 
 
 First I want to create some IK constraints to help animating.
-Clear the parent of the last bone (Alt-P in edit mode)
-In pose mode select the 3rd bone in the index finger - in the constraints tab select add constraint - IK
-set the chain length to 3
-Set the target to Armature -> Index4
-Now in the bone tab for each joint constrain rotation to X by locking the other rotations
-Set rotation limits to sensible values
-Set stiffness where necessary.
-Repeat for all fingers of the hand.
-Use shape keys to tweak the mesh where it deforms oddly.
+- Clear the parent of the last bone (Alt-P in edit mode)
+- In pose mode select the 3rd bone in the index finger - in the constraints tab select add constraint - IK
+- Set the chain length to 3
+- Set the target to Armature -> Index4
+- Now in the bone tab for each joint constrain rotation to X by locking the other rotations
+- Set rotation limits to sensible values
+- Set stiffness where necessary.
+- Repeat for all fingers of the hand.
+- Use shape keys to tweak the mesh where it deforms oddly.
 - Select the mesh and Add a shape key, first one is the basis, second one will be the first modified shape key
 - Preserve volume off? try toggling to see which gives best result.
 - Right click on value field below shape keys widget and "Add Driver"
 - Open a graph editor
 - Select the key, hit N to show properties
-- In drivers tab set Object = Armature, Bone = the appropriate bone, Type = X,Y or Z rotation, Space = Local. Finally set type to Averaged Value (important to do this last to avoid error)
-Now moving the IK target should deform the mesh correctly - edit as required
-It is important for the sense of presence and immersion that the hands are not crap.
+- In drivers tab set Object = Armature, Bone = the appropriate bone, Type = X,Y or Z rotation, Space = Local. 
+-   Finally set type to Averaged Value (important to do this last to avoid error)
+- Now moving the IK target should deform the mesh correctly - edit as required
 
+It is important for the sense of presence and immersion that the hands are not crap!
+
+Next up I'll go over importing into Unity and setting up custom hands for Oculus.. stand by please..
+
+{% comment %}
 [Continues in Part 2]()
 
 Setup like 
@@ -187,3 +193,4 @@ assign the empty object as the value for Ray Transform on:
 	EventSystem:GazeInteractionInputModule
 Add GazeInteractionInputModule to EventSystem
 assign GazePointerRing:OVRGazePointer to Pointer of Laser Line
+{% endcomment %}
