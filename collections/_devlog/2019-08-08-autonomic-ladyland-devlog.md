@@ -4,6 +4,7 @@ date: 2019-08-08T09:05:00+00:00
 project: false
 layout: post
 video1: 354367068
+soundcloud: 667217351
 categories:
   - code
   - projects
@@ -317,3 +318,7 @@ So the value from the incoming OSC message will be broadcast using the static hr
 **12.08.19**
 
 Senheiser Ambeo headset arrives and I get a chance to check out making immersive 3D audio recordings. Quality is excellent - so good that I am fooled into thinking the recorded road traffic noise is live. I'm playing the recording through a pair of Beats Studio headphones with noise cancelling turned on. Fidelity is amazing. This is really going to add a nice real-world element to the piece.
+
+{% include soundcloudplayer.html id=page.soundcloud %}
+
+Here's a recording I made at Second Home in London Fields. The recording was made in the main co-working space which backs onto the creche - the baby screams come from behind a closed door. Listen to this on a pair of headphones - preferably noise-cancelling.
