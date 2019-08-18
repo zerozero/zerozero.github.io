@@ -3,7 +3,7 @@ layout: page
 title: Coolroom
 date: 2006-10-08T16:44:29+00:00
 project: true
-filename: /coolroom
+filename: /work/coolroom
 categories:
   - code
   - projects

@@ -3,7 +3,7 @@ layout: page
 title: Pharma VR training simulator
 date: 2017-01-12T16:44:29+00:00
 project: true
-filename: /darzalex
+filename: /work/darzalex
 categories:
   - code
   - projects
