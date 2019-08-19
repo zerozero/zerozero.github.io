@@ -1,9 +1,10 @@
 <!-- Renders post date, title, and snippet of text. -->
 <div class="py-2 mb-2 prose">
   <!-- This comparison exists so we can publish future content without showing the date (useful for the Exhibitions post in Art section)-->
-  {% assign today_date = 'now' | date: '%s' %}
+  {% assign today_date = "today" | date: '%s' %}
   {% assign post_date = post.date | date: '%s' %}
-  {% if post_date < today_date >%}
+  {% assign diff = today_date | minus: post_date %}
+  {% if diff > 0 %}
   <a class="no-underline h5 bold text-accent" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}" >{{ post.date | date: "%b, %Y" }}</a>
   {% endif %}
   <h2 class="h3 lh-condensed col-9 mt-0">

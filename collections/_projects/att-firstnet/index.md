@@ -3,7 +3,7 @@ layout: page
 title: AT&T FirstNet VR
 date: 2018-03-01T16:44:29+00:00
 project: true
-filename: /att-firstnet
+filename: /work/att-firstnet
 categories:
   - code
   - projects
