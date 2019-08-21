@@ -53,6 +53,8 @@ collections:
     output: true
   devlog:
     output: true
+  autonomicladyland:
+    output: true
 collections_dir: collections
 
 #facebook_url:

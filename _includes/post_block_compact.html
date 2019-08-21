@@ -1,0 +1,7 @@
+<!-- Renders post date, title, and snippet of text. -->
+<div class="py-0 mb-2 prose">
+  <h2 class="h3 lh-condensed col-9 mt-0">
+    <a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </h2>
+  <p>{{ post.description }}</p>
+</div>
