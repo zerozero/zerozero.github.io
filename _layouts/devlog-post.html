@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="container mx-auto px-3 mt2 mb4">
+  <header class="header-background">
+    <!--<div class="clearfix border-bottom-thick header-border"></div>-->
+    <div class="container mx-auto px-0 ml-0 mt-0 mb-2 clearfix header-text">
+      <h1 class="h5 py-0 ml-0 mt-0"><span class="title-color">{{ page.date | date: "%A, %B %d, %Y" }}</span></h1>
+      <!--<div class="clearfix mb-4 py-1"></div>-->
+    </div>
+  </header>
+  <div class="col-12 sm-width-full border-top-thin">
+  </div>
+  <div class="prose mb-4 py-4">
+    {{ content }}
+  </div>
+</article>
+
+<div class="prev-next container mx-auto px-2 py-2 clearfix">
+  {% include devlog-previous-next.html %}
+</div>
