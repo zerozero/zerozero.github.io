@@ -14,7 +14,7 @@ description: How to organise code in Unity
 
 **The Requirements**
 
-I recently had the pleasure of working on a VR project with a very talented team at [Masters of Pie](http://www.mastersofpie.com/) here in London. The application is a simulator to train nurses in administering a new cancer treatment and runs on the Vive platform. 
+I recently got involved in a great VR project with the team at [Masters of Pie](http://www.mastersofpie.com/) here in London. The application is a simulator to train nurses in administering a new cancer treatment and runs on the Vive platform. 
 
 The requirements for the simulation centre around a virtual patient who is connected to a titration machine that dispenses the drug in dosages controlled by the participant. Also connected to the patient is an "Obs" machine that displays certain aspects of the patient's stats: blood pressure, respiratory rate, blood-oxygen levels, temperature etc. Arranged on a shelf near the patient are a selection of medications used for post- and pre-med administration and to treat infusion related reactions. These must be administered at the correct time to the correct part of the body (placed in the hand, oxygen mask over the mouth or onto the canular attached to the left arm).
 
