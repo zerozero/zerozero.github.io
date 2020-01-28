@@ -18,3 +18,5 @@ tech:
  - Zenject
 video: 201068644
 ---
+
+{% include vimeoplayer.html id=page.video %}

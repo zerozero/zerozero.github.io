@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pharma VR training simulator
+title: Pharma VR training simulator (2016)
 date: 2017-01-12T16:44:29+00:00
 project: true
 filename: /work/darzalex
@@ -19,6 +19,7 @@ tech:
  - NewtonVR
  - Strange IoC
 video: 201068644
+order: 3
 ---
 
 

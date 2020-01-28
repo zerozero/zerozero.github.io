@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Icarus Project
+title: The Icarus Project (1994)
 date: 1994-06-06T16:44:29+00:00
 project: true
 categories:

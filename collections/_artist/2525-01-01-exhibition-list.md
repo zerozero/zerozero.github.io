@@ -3,9 +3,12 @@ layout: exhibitions
 title: Exhibitions &tc
 hide-date: false
 ---
-+ Jun 2019 **Digital Umbilical III** _Various Sensors, Computers, Dancers_. London College of Communication (With Body Intelligence Collective)
-+ Feb 2019 **Digital Umbilical II** _Various Sensors, Computers, Dancers_. Aures London (With Body Intelligence Collective)
-+ Sep 2018 **Digital Umbilical I** _Various Sensors, Computers, Dancers_. Dansathon 2018, Plexal London (With Body Intelligence Collective)
++ Nov 2019 **Digital Umbilical III** _Various Sensors, Computers, Dancers_.Théâtre de Liège (With Body Intelligence Collective)
++ Oct 2019 **Digital Umbilical II** _Various Sensors, Computers, Dancers_. Maison De La Danse, Lyon, London (With Body Intelligence Collective)
++ Oct 2019 **Digital Umbilical I** _Various Sensors, Computers, Dancers_. Sadlers' Wells, London (With Body Intelligence Collective)
++ Jun 2019 **Digital Umbilical WIP** _Various Sensors, Computers, Dancers_. London College of Communication (With Body Intelligence Collective)
++ Feb 2019 **Digital Umbilical WIP** _Various Sensors, Computers, Dancers_. Aures London (With Body Intelligence Collective)
++ Sep 2018 **Digital Umbilical @ Dansathon** _Various Sensors, Computers, Dancers_. Dansathon 2018, Plexal London (With Body Intelligence Collective)
 + Sep 2018 **Mentor/Technologist** QuestLab, Studio Wayne McGregor
 + May 2014 **Belly Don't Know** _Leap Motion Controller, RGB Monitor, Wood, Wax, Metal_. Artcore International 14 Group Exhibition, Hotel Elephant London SE1
 + Jul 1999 **Artist in Residence**, Stiftelsen Kulturhuset USF, Bergen, Norway
