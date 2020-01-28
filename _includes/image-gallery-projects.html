@@ -22,8 +22,8 @@
     .image-gallery-projects a img {
         width: 100%;
         display: block;
-        -webkit-filter: grayscale(100%) sepia(30%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%) sepia(30%);
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
     }
 
     .image-gallery-projects {
@@ -31,8 +31,10 @@
     }
 
     .image-gallery-projects img:hover {
-        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(0%);
+
+        -webkit-filter: grayscale(100%) sepia(30%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%) sepia(30%);
+
     }
 
     @media screen and (max-width: 767px) {
@@ -44,7 +46,8 @@
 
 
 <p class="image-gallery-projects">
-    {% for project in site.projects %}
+    {% assign projects_by_order = site.projects | sort: "order" %}
+    {% for project in projects_by_order %}
     {% assign filenameparts = project.path | split: "/" %}{% assign filename = filenameparts[1] %}
     <a href="{{ project.filename }}" title="{{ project.title }}"><img src="{{ filename | prepend: include.folder }}.jpg"
                                                                  alt="{{ filename }}" title="{{ project.title }}"/></a>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AT&T FirstNet VR
+title: AT&T FirstNet VR (2017)
 date: 2018-03-01T16:44:29+00:00
 project: true
 categories:

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Coolroom
+title: Coolroom (2006)
 date: 2006-10-08T16:44:29+00:00
 project: true
 filename: /work/coolroom
@@ -16,4 +16,5 @@ tech:
 video1: 72692071
 video2: 72692072
 description: Virtual 3D environment and digital entertainment channel
+order: 2
 ---
