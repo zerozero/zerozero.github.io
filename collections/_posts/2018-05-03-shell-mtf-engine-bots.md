@@ -12,10 +12,10 @@ video2: 331059665
 ---
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/images/mtf/engine-bots-setup.jpg" alt="" title="EngienBots Setup"/>
+	<img class="col three" src="{{ site.baseurl }}/images/mtf/bot-lineup.jpg" alt="" title="Rendered Bots"/>
 </div>
 <div class="col three caption">
-	Setting up Engine Bots
+	Rendered Bots
 </div>
 **[Make the Future Live 2018](https://uk.makethefuture.shell/about.html){:target="_blank"}** is a 'festival of bright energy ideas' held at the Queen Elizabeth Olympic Park in London. The free four-day festival aims to explore solutions to the energy challenge, celebrate ingenuity and bold new thinking.
 
