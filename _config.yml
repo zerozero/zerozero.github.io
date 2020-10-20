@@ -16,7 +16,7 @@
 title: Jon Rowe
 email: mail@jonrowe.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Pioneering Synthetic Realities
+  Making Things Work
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zerozero.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
