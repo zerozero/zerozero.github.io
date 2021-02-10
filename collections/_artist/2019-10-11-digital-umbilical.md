@@ -34,7 +34,7 @@ Selected members of the audience are seated on stools in the dance space and con
 
 As part of this research into technology and performance we also fitted one audience member with EEG sensors to monitor the signals produced by the brain during the performance.
 
-This experimental artwork was commissioned by Sadlers Wells and supported by BNP Paribas and the Arts Council.
+This experimental artwork was supported by Sadlers Wells, BNP Paribas and the Arts Council. Sadlers Wells have commissioned an online version of the piece for their Autumn 2021 programme.
 
 For more information about the project visit our website at [bodyintelligence.art](http://www.bodyintelligence.art/){:target="_blank"}
 
