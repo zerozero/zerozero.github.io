@@ -30,7 +30,7 @@ video: 372504815
 
 After more than a year of (spare time) development, and having received a small amount of funding from the Arts Council of England we were ready for our three scheduled shows. The first, at Sadlers' Wells in London, is documented in this short video.
 
-Selected members of the audience are seated on stools in the dance space and connected to ear-clip heartrate monitors. Their individual heartbeats are sent across the network to a VVVV application which triggers samples in Ableton Live. Each of the dancers is also fitted with a heartrate monitor that communicates via wifi, and a wireless mic to record their breathing. As the performance unfolds the environment - light and sound - respond to the sensor data collected as the performers and audience interact with each other.
+Selected members of the audience are seated on stools in the dance space and connected to ear-clip heartrate monitors. Their individual heartbeats are sent across the network to a VVVV application which triggers samples in Ableton Live. Each of the dancers is also fitted with a heartrate monitor that communicates via wifi, and a wireless mic to record their breathing. As the performance unfolds the environment - light and sound - respond to the sensor data as the performers and audience interact with each other.
 
 As part of this research into technology and performance we also fitted one audience member with EEG sensors to monitor the signals produced by the brain during the performance.
 
