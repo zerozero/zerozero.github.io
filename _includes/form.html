@@ -15,7 +15,7 @@
 {% endif %}
 {% assign pageform = page.forms[formnumber] %}
 
-<form id="{{ page.url | slugify }}" class="form autofill" method="POST" action="https://formspree.io/{{ pageform.to }}">
+<form id="{{ page.url | slugify }}" class="form autofill" method="POST" action="https://formspree.io/f/myybpgqa">
     <input type="text" name="_gotcha" style="display:none" />
     <input type="hidden" name="_subject" value="{{ pageform.subject }}" />
 
