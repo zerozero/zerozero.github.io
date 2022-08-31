@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Project Archive
-menu: Work
+menu: Archive
 permalink: /archive/
 order: 3
 ---

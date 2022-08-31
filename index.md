@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-strapline: Pioneering Synthetic Realities
+strapline: I make your software work the way you want it to
 slider:
     text_color: white
     shadow_color: black

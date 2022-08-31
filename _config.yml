@@ -16,7 +16,7 @@
 title: Jon Rowe
 email: mail@jonrowe.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Making Things Work
+  I make your software work the way you want it to
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zerozero.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
