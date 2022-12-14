@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Privacy
-menu: Privacy
+permalink: /privacy/
 order: 6
-
 ---
+
 {% include privacy.html %}
