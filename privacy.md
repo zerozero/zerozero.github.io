@@ -1,3 +1,10 @@
+---
+layout: page
+title: Privacy
+menu: Privacy
+order: 6
+
+---
 <style>
   [data-custom-class='body'], [data-custom-class='body'] * {
           background: transparent !important;
