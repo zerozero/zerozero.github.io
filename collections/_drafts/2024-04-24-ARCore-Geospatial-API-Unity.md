@@ -1,5 +1,5 @@
 ---
-title: ARCore Geospatial API & Unity
+title: Follow Me!
 project: true
 layout: post
 categories:
@@ -10,13 +10,24 @@ categories:
   - AI
 tags:
   - projects
-description: Set up Unity for ARCore Geospatial API
+description: A novel augmented reality interface for walking directions
 video: 395757574
 tech:
   - Unity
 ---
 
-# ARCore Geospatial API & Unity
+# Follow Me!
+### _ARCore Geospatial API & Unity ml-agents_
+
+This prototype aims to create a novel AR interface for walking directions. The premise is as follows:
+- The app opens and a cute robot appears in front of the user in AR
+- "Where would you like to go?" says the robot
+- The user speaks their destination
+- The app connects to the google maps api and retrieves a route to the destination
+- "Sure", says the robot, "Follow me!"
+- The robot moves off along the route, avoiding obstacles and never getting too far ahead of the user so it is always in view
+- As the user follows along the robot moves further along until both the user and the robot are at the destination
+
 see: https://developers.google.com/ar/develop/geospatial
 
 - Install ARFoundation latest version
@@ -186,5 +197,51 @@ Result: The bots quickly learn how to hit the target. Now, I need to add subsequ
 <div class="col two caption">
 	mlrf_05 successful target finding behaviour
 </div><br><br>
+
+>How hard would you say that your environment is? If the target is rarely reached, the agent will not be able to learn. In that case, you need to add some intrinsic reward when the agent acts in the right direction. That allows the agent to learn even if the rewards are sparse.
+
+>There might also be a problem with reward hacking by the way you have designed the rewards. If the agent is not able to find the target to get the larger reward, the most efficient way is to fall off the platform as quickly as possible to not suffer from the small penalty in each timestep. 
+
+This is a common problem in reinforcement learning and is called the reward shaping problem.  
+
+> RuntimeError: The size of tensor a (8) must match the size of tensor b (11) at non-singleton dimension 1
+
+This error occurs when I try running the learning process using the `intitialize_from` parameter after changing the Vector Observation Space Size - need to retrain from scratch in this case.
+
+The agent's performance become progressively worse over the length of the path - maybe because it is trained on only 5 legs or maybe because the training ended before it had reached a stable state... it was still improbrving after 5M steps.
+
+**31.5.24**
+
+So, I made a few decisions today to try to improve the model.
+- In order to better mimic real user behaviour I changed the user script to allow moving in reverse. This involved arbitrarily setting the waypoint to a previous waypoint. This causes the user to move backwards as well as pausing occasionally.
+- The effect of this is that it becomes quite easy for the roibot to get very far ahead and potentially out of sight of the user (in the real world). To mitigat ethis I also want the robot to be able to move backwards. To achieve this I look at the position and orientation of the user transofrm and make a calculation to determine the nearest waypoint. Now, the next time the robot acquires a target (reaches a waypoint) it requests the user's nearest waypoint and sets it's next waypoint accordingly to userWaypoint + 1.
+- I notice that my reward/penalty scheme makes the agent behave a little strangely as it approaches a waypoint. For some reason, rather than continuing to approach the waypoint until the distance is within the specified tolerance, it hovers close to the waypoint never quite closing in. I'm not exactly sure why this strategy should be effective for the agent but in order to prompt it to move directly to the waypoint I have implemented a scheme whereby the reward scales proportional to the inverse of the distance to the target. Unfortunately, this seems to result in the agent simply deciding it is more effective to commit suicide as early as possible in order to minimise losses.
+- My next strategy is to reward the agent based on distance, speed and direction
+
+**01.06.24**
+
+Just before I finished yesterday I came across an article discussing "Solving sparse-reward tasks with Curiosity" - hmmm. Interesting. So, today I tried implementing the same strategy but with thew Curiosity intrinsic rewarded activated. You can see the results here:
+
+I quite like the improvement and it feels right intuitively since I am in a sparse-reward scenario. However the movement I'm getting from the robot agent isn't at all what I'm looking for. While it may be doing a decent job of finding it's way (actually not that great of a job) It behaves in a very unnatural way, circling around every waypoint before closing in. And, you know what? I think I'm going to re-think my whole approach. I remember reading somewhere an AI guru responding when asked "how should I use AI in my project?" answering "Don't". His meaning being that we should only use AI when absolutely necessary. Well, I have a perfectly good path defined that leads my robot to the exact centre of each waypoint - why am I trying to teach the robot what is already known? I can simply tellthe robot to follow the path. Now, when it comes to avoiding obstacles on the path, obstacles who's location and size are not known... there is where AI can be useful.
+
+So it's a bit of a rewrite. Ah well, that's development for ya! I've learned some really valuable lessons in the process of getting to this point and can attack the problem afresh with a greater understanding.
+
+**07.06.24**
+
+I need to turn my attention to the actual behaviour of the robot/agent now that I have a handle on training and its quirks. I have previously tried to train the agent so that it attempts to 
+- follow the path defined by n waypoints
+- never get too far ahead of the user
+- return to find the user if the user stops or goes backwards
+
+This has worked ok but I feel that attempting to train weights that satisfy these (and potentially more) requirements results in behaviour that feels 'soft'. By that I mean that the agent doesn't completely fulfill any of the requirements, but finds an approximation somewhere between them all.
+
+So, my next strategy is to create a kind of super-state that will switch between different goals as the episode progresses. This way the agent will only attempt to achieve on goal at a time. I want the agent to
+- attempt to stay a short distance ahead of the user
+- move to a waypoint when one is in range
+- return to the user if they turn around or leave the path
+
+Imagine the behaviour of a young, excitable puppy bouncing around and dashing from its owner to some interesting new location and back again. That's how I want it to feel.
+
+Taking inspiration from one of the Unity ml-agents demos I have created a state class which will become part of  the agent's observations input. The question I ask is how to assign rewards? Maybe I could change the rewards dependent on state too? Or - since there is only ever one target at a time (user or a waypoint) - I can simply switch the target with the state?  
 
 
