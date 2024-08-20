@@ -88,6 +88,20 @@ Not compatible with Unity
 
 Requires newtonsoft json install - we can install using the package manager -> install package by name "com.unity.nuget.newtonsoft-json"
 
+### Android Build
+
+There was an issue that caused the AR Session not to initialize. Characterised by an error that meant EarthManager.EarthState was always EarthState.ErrorEarthNotReady.
+Working backwards it transpired this was caused by the Google Play Services Location Library not being detected in the target APK/AAB on install (Throws an error in ADB Logcat - AR_ERROR_GOOGLE_PLAY_SERVICES_LOCATION_LIBRARY_NOT_LINKED). To fix this we need to make sure that see `implementation(name: 'com.google.android.gms.play-services-location-17.1.0', ext:'aar')` is present in *Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build.gradle*. We can toggle Geospatial Optional Feature and using *Assets > External Dependency Manager > Android Resolver > Force Resolve*  
+Unfortunately, this caused a build fail with a message like `A failure occurred while executing com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable` - this can be fixed by:
+1. clean up all aar and jar files and also their metafiles from Assets/Plugins/Android folder
+2. check that Custom Main Gradle Template, Custom Gradle Settings Template, Custom Gradle Properties Template are turned on in Player settings
+3. Assets > External Dependency Manager > Android Resolver > Force Resolve
+Location Services should now show up in build.gradle
+
+https://github.com/googlesamples/unity-jar-resolver/issues/626
+https://github.com/google-ar/arcore-unity-extensions/issues/157
+
+
 # Unity ML-Agents
 
 Install:
