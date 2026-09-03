@@ -79,6 +79,22 @@ see: https://developers.google.com/ar/geospatialcreator/unity/quickstart
 
 Get the cesium package: https://github.com/CesiumGS/cesium-unity/releases/ - this should be saved to a location that will be committed to VCS
 
+### Android Build
+
+If you get an error like "Execution failed for task ':launcher:checkReleaseDuplicateClasses'." You should head over to Assets -> Android Dependency Resolver -> Settings -> Remove Resolved Dependencies
+
+**Unity Android Build Black Screen**
+
+adb logcat: ```Skipped rendering frame because GfxDevice is in invalid state (device lost)```
+
+Hi all, our investigation has shown that this issue is caused by the Magic Leap package being present in the project. The workaround to fix this is:
+
+- Uninstall the AR Feature from package manager
+- Reinstall AR Foundation, but not the Magic Leap package
+- Close Unity and delete your Library folder
+- Reopen Unity
+
+This workaround has worked for everyone so far. We have this issue assigned to the Magic Leap team for further investigation as well. Please share if you have any different experiences, otherwise we'll close this issue as it's a Magic Leap issue, not AR Foundation.
 
 ### Routing
 ~~Install Google.Maps.Routing.V2 from nuget
@@ -256,6 +272,10 @@ So, my next strategy is to create a kind of super-state that will switch between
 
 Imagine the behaviour of a young, excitable puppy bouncing around and dashing from its owner to some interesting new location and back again. That's how I want it to feel.
 
-Taking inspiration from one of the Unity ml-agents demos I have created a state class which will become part of  the agent's observations input. The question I ask is how to assign rewards? Maybe I could change the rewards dependent on state too? Or - since there is only ever one target at a time (user or a waypoint) - I can simply switch the target with the state?  
+Taking inspiration from one of the Unity ml-agents demos I have created a state class which will become part of  the agent's observations input. The question I ask is how to assign rewards? Maybe I could change the rewards dependent on state too? Or - since there is only ever one target at a time (user or a waypoint) - I can simply switch the target with the state?
+
+**03.08.24**
+
+Over a month has gone by since my last update. Other work has intruded on my focus but I have managed to make some good progress. July saw a big change in my approach again. Once more I realised after much frustration that what I was attempting would be much better accomplished without machine learning. Specifically, I have a path defined already, there is really no need to do anything other than follow the path, which is quite trivial using a standard algorithmic approach. Where ML can be useful is responding to randomly placed obstacles ont he path. If the robot can recognise an obstacle (raycasting) and determine if ti is not to high to jump over then it can jump. Otherwise it can try to move around the obstacle.So, I can have the robot use one or more ray perception sensors to observe obstacles placed in it's way and possibly other observations such as current velocity, remaining fuel etc.
 
 
